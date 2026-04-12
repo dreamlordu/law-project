@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@plugin "flowbite/plugin";
+
+@theme {
+  --color-bej-hukuk: #f8f7f3;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  user-select: none;
+}
