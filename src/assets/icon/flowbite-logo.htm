@@ -1,0 +1,2481 @@
+<!DOCTYPE html>
+<html>
+<head  itemscope itemtype="https://schema.org/WebSite"  prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# product: http://ogp.me/ns/product#">
+
+  <meta charset="utf-8">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"50be1a5c2f","applicationID":"10371034","transactionName":"JlhdRhEOCQhdExoUEQpTRlEXThYMVxY=","queueTime":2,"applicationTime":78,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]},feature_flags:["soft_nav"]};(window.NREUM||(NREUM={})).loader_config={licenseKey:"50be1a5c2f",applicationID:"10371034",browserID:"10371152"};;/*! For license information please see nr-loader-rum-1.312.1.min.js.LICENSE.txt */
+(()=>{var e,t,r={163:(e,t,r)=>{"use strict";r.d(t,{j:()=>T});var n=r(384),i=r(1741);var s=r(2555);r(860).K7.genericEvents;const o="experimental.resources",a="register",c=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var u=r(2614),d=r(944),l=r(8122);const f="[data-nr-mask]",g=e=>(0,l.a)(e,(()=>{const e={feature_flags:[],experimental:{allow_registered_children:!1,resources:!1},mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{ajax:{deny_list:void 0,block_internal:!0,enabled:!0,autoStart:!0},api:{get allow_registered_children(){return e.feature_flags.includes(a)||e.experimental.allow_registered_children},set allow_registered_children(t){e.experimental.allow_registered_children=t},duplicate_registered_data:!1},browser_consent_mode:{enabled:!1},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},get feature_flags(){return e.feature_flags},set feature_flags(t){e.feature_flags=t},generic_events:{enabled:!0,autoStart:!0},harvest:{interval:30},jserrors:{enabled:!0,autoStart:!0},logging:{enabled:!0,autoStart:!0},metrics:{enabled:!0,autoStart:!0},obfuscate:void 0,page_action:{enabled:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,autoStart:!0},performance:{capture_marks:!1,capture_measures:!1,capture_detail:!0,resources:{get enabled(){return e.feature_flags.includes(o)||e.experimental.resources},set enabled(t){e.experimental.resources=t},asset_types:[],first_party_domains:[],ignore_newrelic:!0}},privacy:{cookies_enabled:!0},proxy:{assets:void 0,beacon:void 0},session:{expiresMs:u.wk,inactiveMs:u.BB},session_replay:{autoStart:!0,enabled:!1,preload:!1,sampling_rate:10,error_sampling_rate:100,collect_fonts:!1,inline_images:!1,fix_stylesheets:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){c(t)?e.mask_selector="".concat(t,",").concat(f):""===t||null===t?e.mask_selector=f:(0,d.R)(5,t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){c(t)?e.block_selector+=",".concat(t):""!==t&&(0,d.R)(6,t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,d.R)(7,t)}},session_trace:{enabled:!0,autoStart:!0},soft_navigations:{enabled:!0,autoStart:!0},ssl:void 0,user_actions:{enabled:!0,elementAttributes:["id","className","tagName","type"]}}})());var p=r(6154),m=r(9324);let h=0;const v={buildEnv:m.F3,distMethod:m.Xs,version:m.xv,originTime:p.WN},b={consented:!1},y={activatedFeatures:void 0,appMetadata:{},configured:!1,get consented(){return this.session?.state?.consent||b.consented},set consented(e){b.consented=e},customTransaction:void 0,denyList:[],disabled:!1,drainRegistry:new Map,harvester:void 0,isolatedBacklog:!1,isRecording:!1,loaderType:void 0,maxBytes:3e4,obfuscator:void 0,onerror:void 0,ptid:void 0,releaseIds:{},session:void 0,timeKeeper:void 0,registeredEntities:[],jsAttributesMetadata:{bytes:0},get harvestCount(){return++h}},_=e=>{const t=(0,l.a)(e,y),r=Object.keys(v).reduce((e,t)=>(e[t]={value:v[t],writable:!1,configurable:!0,enumerable:!0},e),{});return Object.defineProperties(t,r)},w=e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e};var x=r(7836),R=r(3241);const k={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},A=e=>(0,l.a)(e,k);function T(e,t={},r,o){let{init:a,info:c,loader_config:u,runtime:d={},exposed:l=!0}=t;if(!c){const e=(0,n.pV)();a=e.init,c=e.info,u=e.loader_config}e.init=g(a||{}),e.loader_config=A(u||{}),c.jsAttributes??={},p.bv&&(c.jsAttributes.isWorker=!0),e.info=(0,s.D)(c);const f=e.init;e.runtime??=_(d),f.proxy.assets&&w(f.proxy.assets),e.runtime.configured||(Object.defineProperty(e,"beacons",{get:()=>[e.info.beacon,e.info.errorBeacon,e.init.proxy.assets,e.init.proxy.beacon].filter(Boolean)}),Object.defineProperty(e.runtime,"denyList",{get:()=>[...e.init.ajax.deny_list||[],...e.init.ajax.block_internal?e.beacons:[]]}),e.runtime.ptid=e.agentIdentifier,function(e){const t=(0,n.pV)();Object.getOwnPropertyNames(i.W.prototype).forEach(r=>{const n=i.W.prototype[r];if("function"!=typeof n||"constructor"===n)return;let s=t[r];e[r]&&!1!==e.exposed&&"micro-agent"!==e.runtime?.loaderType&&(t[r]=(...t)=>{const n=e[r](...t);return s?s(...t):n})})}(e),e.runtime.loaderType=r,e.ee=x.ee.get(e.agentIdentifier),e.exposed=l,(0,R.W)({drained:!!e.runtime.activatedFeatures,type:"lifecycle",name:"initialize",feature:void 0,data:e.config}),e.runtime.configured=!0)}},384:(e,t,r)=>{"use strict";r.d(t,{NT:()=>a,Zm:()=>c,bQ:()=>d,dV:()=>u,pV:()=>l});var n=r(6154),i=r(1863),s=r(944),o=r(1910);const a={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function c(){return n.gm.NREUM||(n.gm.NREUM={}),void 0===n.gm.newrelic&&(n.gm.newrelic=n.gm.NREUM),n.gm.NREUM}function u(){let e=c();return e.o||(e.o={ST:n.gm.setTimeout,SI:n.gm.setImmediate||n.gm.setInterval,CT:n.gm.clearTimeout,XHR:n.gm.XMLHttpRequest,REQ:n.gm.Request,EV:n.gm.Event,PR:n.gm.Promise,MO:n.gm.MutationObserver,FETCH:n.gm.fetch,WS:n.gm.WebSocket},(0,o.i)(...Object.values(e.o))),e}function d(e,t){let r=c();r.initializedAgents??={},t.initializedAt={ms:(0,i.t)(),date:new Date},r.initializedAgents[e]=t,2===Object.keys(r.initializedAgents).length&&(0,s.R)(69)}function l(){return function(){let e=c();const t=e.info||{};e.info={beacon:a.beacon,errorBeacon:a.errorBeacon,...t}}(),function(){let e=c();const t=e.init||{};e.init={...t}}(),u(),function(){let e=c();const t=e.loader_config||{};e.loader_config={...t}}(),c()}},782:(e,t,r)=>{"use strict";r.d(t,{T:()=>n});const n=r(860).K7.pageViewTiming},860:(e,t,r)=>{"use strict";r.d(t,{$J:()=>d,K7:()=>c,P3:()=>u,XX:()=>i,Yy:()=>a,df:()=>s,qY:()=>n,v4:()=>o});const n="events",i="jserrors",s="browser/blobs",o="rum",a="browser/logs",c={ajax:"ajax",genericEvents:"generic_events",jserrors:i,logging:"logging",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",softNav:"soft_navigations"},u={[c.pageViewEvent]:1,[c.pageViewTiming]:2,[c.metrics]:3,[c.jserrors]:4,[c.softNav]:5,[c.ajax]:6,[c.sessionTrace]:7,[c.sessionReplay]:8,[c.logging]:9,[c.genericEvents]:10},d={[c.pageViewEvent]:o,[c.pageViewTiming]:n,[c.ajax]:n,[c.softNav]:n,[c.metrics]:i,[c.jserrors]:i,[c.sessionTrace]:s,[c.sessionReplay]:s,[c.logging]:a,[c.genericEvents]:"ins"}},944:(e,t,r)=>{"use strict";r.d(t,{R:()=>i});var n=r(3241);function i(e,t){"function"==typeof console.debug&&(console.debug("New Relic Warning: https://github.com/newrelic/newrelic-browser-agent/blob/main/docs/warning-codes.md#".concat(e),t),(0,n.W)({drained:null,type:"data",name:"warn",feature:"warn",data:{code:e,secondary:t}}))}},1687:(e,t,r)=>{"use strict";r.d(t,{Ak:()=>a,Ze:()=>u,x3:()=>c});var n=r(3241),i=r(3606),s=r(860),o=r(2646);function a(e,t){if(!e)return;const r={staged:!1,priority:s.P3[t]||0};e.runtime.drainRegistry.get(t)||e.runtime.drainRegistry.set(t,r)}function c(e,t){if(!e)return;const r=e.runtime.drainRegistry;r&&(r.get(t)&&r.delete(t),l(e,t,!1),r.size&&d(e))}function u(e,t="feature",r=!1){if(e){if(!e.runtime.drainRegistry.get(t)||r)return l(e,t);e.runtime.drainRegistry.get(t).staged=!0,d(e)}}function d(e){if(!e)return;const t=Array.from(e.runtime.drainRegistry);t.every(([e,t])=>t.staged)&&(t.sort((e,t)=>e[1].priority-t[1].priority),t.forEach(([t])=>{e.runtime.drainRegistry.delete(t),l(e,t)}))}function l(e,t,r=!0){if(!e)return;const s=e.ee,a=i.i.handlers;if(s&&!s.aborted&&s.backlog&&a){if((0,n.W)({type:"lifecycle",name:"drain",feature:t}),r){const e=s.backlog[t],r=a[t];if(r){for(let t=0;e&&t<e.length;++t)f(e[t],r);Object.entries(r).forEach(([e,t])=>{Object.values(t||{}).forEach(t=>{t[0]?.on&&t[0].context()instanceof o.y&&!t[0].listeners(e).includes(t[1])&&t[0].on(e,t[1])})})}}s.isolatedBacklog||delete a[t],s.backlog[t]=null,s.emit("drain-"+t,[])}}function f(e,t){var r=e[1];Object.values(t[r]||{}).forEach(t=>{var r=e[0];if(t[0]===r){var n=t[1],i=e[3],s=e[2];n.apply(i,s)}})}},1738:(e,t,r)=>{"use strict";r.d(t,{U:()=>f,Y:()=>l});var n=r(3241),i=r(9908),s=r(1863),o=r(944),a=r(3969),c=r(8362),u=r(860),d=r(4261);function l(e,t,r,s){const l=s||r;!l||l[e]&&l[e]!==c.d.prototype[e]||(l[e]=function(){(0,i.p)(a.xV,["API/"+e+"/called"],void 0,u.K7.metrics,r.ee),(0,n.W)({drained:!!r.runtime?.activatedFeatures,type:"data",name:"api",feature:d.Pl+e,data:{}});try{return t.apply(this,arguments)}catch(e){(0,o.R)(23,e)}})}function f(e,t,r,n,o){const a=e.info;null===r?delete a.jsAttributes[t]:a.jsAttributes[t]=r,(o||null===r)&&(0,i.p)(d.Pl+n,[(0,s.t)(),t,r],void 0,"session",e.ee)}},1741:(e,t,r)=>{"use strict";r.d(t,{W:()=>s});var n=r(944),i=r(4261);class s{#e(e,...t){if(this[e]!==s.prototype[e])return this[e](...t);(0,n.R)(35,e)}addPageAction(e,t){return this.#e(i.hG,e,t)}register(e){return this.#e(i.eY,e)}recordCustomEvent(e,t){return this.#e(i.fF,e,t)}setPageViewName(e,t){return this.#e(i.Fw,e,t)}setCustomAttribute(e,t,r){return this.#e(i.cD,e,t,r)}noticeError(e,t){return this.#e(i.o5,e,t)}setUserId(e,t=!1){return this.#e(i.Dl,e,t)}setApplicationVersion(e){return this.#e(i.nb,e)}setErrorHandler(e){return this.#e(i.bt,e)}addRelease(e,t){return this.#e(i.k6,e,t)}log(e,t){return this.#e(i.$9,e,t)}start(){return this.#e(i.d3)}finished(e){return this.#e(i.BL,e)}recordReplay(){return this.#e(i.CH)}pauseReplay(){return this.#e(i.Tb)}addToTrace(e){return this.#e(i.U2,e)}setCurrentRouteName(e){return this.#e(i.PA,e)}interaction(e){return this.#e(i.dT,e)}wrapLogger(e,t,r){return this.#e(i.Wb,e,t,r)}measure(e,t){return this.#e(i.V1,e,t)}consent(e){return this.#e(i.Pv,e)}}},1863:(e,t,r)=>{"use strict";function n(){return Math.floor(performance.now())}r.d(t,{t:()=>n})},1910:(e,t,r)=>{"use strict";r.d(t,{i:()=>s});var n=r(944);const i=new Map;function s(...e){return e.every(e=>{if(i.has(e))return i.get(e);const t="function"==typeof e?e.toString():"",r=t.includes("[native code]"),s=t.includes("nrWrapper");return r||s||(0,n.R)(64,e?.name||t),i.set(e,r),r})}},2555:(e,t,r)=>{"use strict";r.d(t,{D:()=>a,f:()=>o});var n=r(384),i=r(8122);const s={beacon:n.NT.beacon,errorBeacon:n.NT.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0};function o(e){try{return!!e.licenseKey&&!!e.errorBeacon&&!!e.applicationID}catch(e){return!1}}const a=e=>(0,i.a)(e,s)},2614:(e,t,r)=>{"use strict";r.d(t,{BB:()=>o,H3:()=>n,g:()=>u,iL:()=>c,tS:()=>a,uh:()=>i,wk:()=>s});const n="NRBA",i="SESSION",s=144e5,o=18e5,a={STARTED:"session-started",PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},c={SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},u={OFF:0,FULL:1,ERROR:2}},2646:(e,t,r)=>{"use strict";r.d(t,{y:()=>n});class n{constructor(e){this.contextId=e}}},2843:(e,t,r)=>{"use strict";r.d(t,{G:()=>s,u:()=>i});var n=r(3878);function i(e,t=!1,r,i){(0,n.DD)("visibilitychange",function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)},r,i)}function s(e,t,r){(0,n.sp)("pagehide",e,t,r)}},3241:(e,t,r)=>{"use strict";r.d(t,{W:()=>s});var n=r(6154);const i="newrelic";function s(e={}){try{n.gm.dispatchEvent(new CustomEvent(i,{detail:e}))}catch(e){}}},3606:(e,t,r)=>{"use strict";r.d(t,{i:()=>s});var n=r(9908);s.on=o;var i=s.handlers={};function s(e,t,r,s){o(s||n.d,i,e,t,r)}function o(e,t,r,i,s){s||(s="feature"),e||(e=n.d);var o=t[s]=t[s]||{};(o[r]=o[r]||[]).push([e,i])}},3878:(e,t,r)=>{"use strict";function n(e,t){return{capture:e,passive:!1,signal:t}}function i(e,t,r=!1,i){window.addEventListener(e,t,n(r,i))}function s(e,t,r=!1,i){document.addEventListener(e,t,n(r,i))}r.d(t,{DD:()=>s,jT:()=>n,sp:()=>i})},3969:(e,t,r)=>{"use strict";r.d(t,{TZ:()=>n,XG:()=>a,rs:()=>i,xV:()=>o,z_:()=>s});const n=r(860).K7.metrics,i="sm",s="cm",o="storeSupportabilityMetrics",a="storeEventMetrics"},4234:(e,t,r)=>{"use strict";r.d(t,{W:()=>i});var n=r(1687);class i{constructor(e,t){this.agentRef=e,this.ee=e?.ee,this.featureName=t,this.blocked=!1}deregisterDrain(){(0,n.x3)(this.agentRef,this.featureName)}}},4261:(e,t,r)=>{"use strict";r.d(t,{$9:()=>u,BL:()=>a,CH:()=>g,Dl:()=>_,Fw:()=>y,PA:()=>h,Pl:()=>n,Pv:()=>k,Tb:()=>l,U2:()=>s,V1:()=>R,Wb:()=>x,bt:()=>b,cD:()=>v,d3:()=>w,dT:()=>c,eY:()=>p,fF:()=>f,hG:()=>i,k6:()=>o,nb:()=>m,o5:()=>d});const n="api-",i="addPageAction",s="addToTrace",o="addRelease",a="finished",c="interaction",u="log",d="noticeError",l="pauseReplay",f="recordCustomEvent",g="recordReplay",p="register",m="setApplicationVersion",h="setCurrentRouteName",v="setCustomAttribute",b="setErrorHandler",y="setPageViewName",_="setUserId",w="start",x="wrapLogger",R="measure",k="consent"},5289:(e,t,r)=>{"use strict";r.d(t,{GG:()=>o,Qr:()=>c,sB:()=>a});var n=r(3878),i=r(6389);function s(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(s())return e();const r=(0,i.J)(e),o=setInterval(()=>{s()&&(clearInterval(o),r())},500);(0,n.sp)("load",r,t)}function a(e){if(s())return e();(0,n.DD)("DOMContentLoaded",e)}function c(e){if(s())return e();(0,n.sp)("popstate",e)}},5607:(e,t,r)=>{"use strict";r.d(t,{W:()=>n});const n=(0,r(9566).bz)()},6154:(e,t,r)=>{"use strict";r.d(t,{OF:()=>u,RI:()=>i,WN:()=>l,bv:()=>s,gm:()=>o,m:()=>c,mw:()=>a,sb:()=>d,zk:()=>f});var n=r(1863);const i="undefined"!=typeof window&&!!window.document,s="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),o=i?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),a=Boolean("hidden"===o?.document?.visibilityState),c=""+o?.location,u=/iPad|iPhone|iPod/.test(o.navigator?.userAgent),d=u&&"undefined"==typeof SharedWorker,l=((()=>{const e=o.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Date.now()-(0,n.t)()),f=()=>{const e=o?.performance?.getEntriesByType?.("navigation")?.[0];if(e&&e.responseStart>0&&e.responseStart<o.performance.now())return e}},6389:(e,t,r)=>{"use strict";function n(e,t=500,r={}){const n=r?.leading||!1;let i;return(...r)=>{n&&void 0===i&&(e.apply(this,r),i=setTimeout(()=>{i=clearTimeout(i)},t)),n||(clearTimeout(i),i=setTimeout(()=>{e.apply(this,r)},t))}}function i(e){let t=!1;return(...r)=>{t||(t=!0,e.apply(this,r))}}r.d(t,{J:()=>i,s:()=>n})},6630:(e,t,r)=>{"use strict";r.d(t,{T:()=>n});const n=r(860).K7.pageViewEvent},7699:(e,t,r)=>{"use strict";r.d(t,{It:()=>s,KC:()=>a,No:()=>i,qh:()=>o});var n=r(860);const i=16e3,s=1e6,o="SESSION_ERROR",a={[n.K7.logging]:!0,[n.K7.genericEvents]:!0,[n.K7.jserrors]:!0,[n.K7.ajax]:!0}},7836:(e,t,r)=>{"use strict";r.d(t,{P:()=>a,ee:()=>c});var n=r(384),i=r(8990),s=r(2646),o=r(5607);const a="nr@context:".concat(o.W),c=function e(t,r){var n={},o={},d={},l=!1;try{l=16===r.length&&u.initializedAgents?.[r]?.runtime.isolatedBacklog}catch(e){}var f={on:p,addEventListener:p,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,s){!1!==s&&(s=!0);if(c.aborted&&!i)return;t&&s&&t.emit(e,r,n);var a=g(n);m(e).forEach(e=>{e.apply(a,r)});var u=v()[o[e]];u&&u.push([f,e,r,a]);return a},get:h,listeners:m,context:g,buffer:function(e,t){const r=v();if(t=t||"feature",f.aborted)return;Object.entries(e||{}).forEach(([e,n])=>{o[n]=t,t in r||(r[t]=[])})},abort:function(){f._aborted=!0,Object.keys(f.backlog).forEach(e=>{delete f.backlog[e]})},isBuffering:function(e){return!!v()[o[e]]},debugId:r,backlog:l?{}:t&&"object"==typeof t.backlog?t.backlog:{},isolatedBacklog:l};return Object.defineProperty(f,"aborted",{get:()=>{let e=f._aborted||!1;return e||(t&&(e=t.aborted),e)}}),f;function g(e){return e&&e instanceof s.y?e:e?(0,i.I)(e,a,()=>new s.y(a)):new s.y(a)}function p(e,t){n[e]=m(e).concat(t)}function m(e){return n[e]||[]}function h(t){return d[t]=d[t]||e(f,t)}function v(){return f.backlog}}(void 0,"globalEE"),u=(0,n.Zm)();u.ee||(u.ee=c)},8122:(e,t,r)=>{"use strict";r.d(t,{a:()=>i});var n=r(944);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.R)(3);if(!t||"object"!=typeof t)return(0,n.R)(4);const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),s=0===Object.keys(r).length?e:r;for(let o in s)if(void 0!==e[o])try{if(null===e[o]){r[o]=null;continue}Array.isArray(e[o])&&Array.isArray(t[o])?r[o]=Array.from(new Set([...e[o],...t[o]])):e[o]instanceof Map||e[o]instanceof Set||e[o]instanceof Date||e[o]instanceof RegExp?r[o]=e[o]:"object"==typeof e[o]&&"object"==typeof t[o]?r[o]=i(e[o],t[o]):r[o]=e[o]}catch(e){r[o]||(0,n.R)(1,e)}return r}catch(e){(0,n.R)(2,e)}}},8362:(e,t,r)=>{"use strict";r.d(t,{d:()=>s});var n=r(9566),i=r(1741);class s extends i.W{agentIdentifier=(0,n.LA)(16)}},8374:(e,t,r)=>{r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},8990:(e,t,r)=>{"use strict";r.d(t,{I:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},9324:(e,t,r)=>{"use strict";r.d(t,{F3:()=>i,Xs:()=>s,xv:()=>n});const n="1.312.1",i="PROD",s="CDN"},9566:(e,t,r)=>{"use strict";r.d(t,{LA:()=>a,bz:()=>o});var n=r(6154);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function s(e,t){return e?15&e[t]:16*Math.random()|0}function o(){const e=n.gm?.crypto||n.gm?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),i.split("").map(e=>"x"===e?s(t,r++).toString(16):"y"===e?(3&s()|8).toString(16):e).join("")}function a(e){const t=n.gm?.crypto||n.gm?.msCrypto;let r,i=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const o=[];for(var a=0;a<e;a++)o.push(s(r,i++).toString(16));return o.join("")}},9908:(e,t,r)=>{"use strict";r.d(t,{d:()=>n,p:()=>i});var n=r(7836).ee.get("handle");function i(e,t,r,i,s){s?(s.buffer([e],i),s.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var s=n[e]={exports:{}};return r[e](s,s.exports,i),s.exports}i.m=r,i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce((t,r)=>(i.f[r](e,t),t),[])),i.u=e=>"nr-rum-1.312.1.min.js",i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.312.1.PROD:",i.l=(r,n,s,o)=>{if(e[r])e[r].push(n);else{var a,c;if(void 0!==s)for(var u=document.getElementsByTagName("script"),d=0;d<u.length;d++){var l=u[d];if(l.getAttribute("src")==r||l.getAttribute("data-webpack")==t+s){a=l;break}}if(!a){c=!0;var f={296:"sha512-EBevTx+IXLhfp3rcdB/+2IBkydvAvYO85Bg7o/JAfe5/1BHeAY6HkMhclfLvNo4yjovWHNXDKPvq85KQM98H1Q=="};(a=document.createElement("script")).charset="utf-8",i.nc&&a.setAttribute("nonce",i.nc),a.setAttribute("data-webpack",t+s),a.src=r,0!==a.src.indexOf(window.location.origin+"/")&&(a.crossOrigin="anonymous"),f[o]&&(a.integrity=f[o])}e[r]=[n];var g=(t,n)=>{a.onerror=a.onload=null,clearTimeout(p);var i=e[r];if(delete e[r],a.parentNode&&a.parentNode.removeChild(a),i&&i.forEach(e=>e(n)),t)return t(n)},p=setTimeout(g.bind(null,void 0,{type:"timeout",target:a}),12e4);a.onerror=g.bind(null,a.onerror),a.onload=g.bind(null,a.onload),c&&document.head.appendChild(a)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={374:0,840:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var s=new Promise((r,i)=>n=e[t]=[r,i]);r.push(n[2]=s);var o=i.p+i.u(t),a=new Error;i.l(o,r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var s=r&&("load"===r.type?"missing":r.type),o=r&&r.target&&r.target.src;a.message="Loading chunk "+t+" failed: ("+s+": "+o+")",a.name="ChunkLoadError",a.type=s,a.request=o,n[1](a)}},"chunk-"+t,t)}};var t=(t,r)=>{var n,s,[o,a,c]=r,u=0;if(o.some(t=>0!==e[t])){for(n in a)i.o(a,n)&&(i.m[n]=a[n]);if(c)c(i)}for(t&&t(r);u<o.length;u++)s=o[u],i.o(e,s)&&e[s]&&e[s][0](),e[s]=0},r=self["webpackChunk:NRBA-1.312.1.PROD"]=self["webpackChunk:NRBA-1.312.1.PROD"]||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})(),(()=>{"use strict";i(8374);var e=i(8362),t=i(860);const r=Object.values(t.K7);var n=i(163);var s=i(9908),o=i(1863),a=i(4261),c=i(1738);var u=i(1687),d=i(4234),l=i(5289),f=i(6154),g=i(944),p=i(384);const m=e=>f.RI&&!0===e?.privacy.cookies_enabled;function h(e){return!!(0,p.dV)().o.MO&&m(e)&&!0===e?.session_trace.enabled}var v=i(6389),b=i(7699);class y extends d.W{constructor(e,t){super(e,t),this.abortHandler=void 0,this.featAggregate=void 0,this.loadedSuccessfully=void 0,this.onAggregateImported=new Promise(e=>{this.loadedSuccessfully=e}),this.deferred=Promise.resolve(),!1===e.init[this.featureName].autoStart?this.deferred=new Promise((t,r)=>{this.ee.on("manual-start-all",(0,v.J)(()=>{(0,u.Ak)(e,this.featureName),t()}))}):(0,u.Ak)(e,t)}importAggregator(e,t,r={}){if(this.featAggregate)return;const n=async()=>{let n;await this.deferred;try{if(m(e.init)){const{setupAgentSession:t}=await i.e(296).then(i.bind(i,3521));n=t(e)}}catch(e){(0,g.R)(20,e),this.ee.emit("internal-error",[e]),(0,s.p)(b.qh,[e],void 0,this.featureName,this.ee)}try{if(!this.#t(this.featureName,n,e.init))return(0,u.Ze)(this.agentRef,this.featureName),void this.loadedSuccessfully(!1);const{Aggregate:i}=await t();this.featAggregate=new i(e,r),e.runtime.harvester.initializedAggregates.push(this.featAggregate),this.loadedSuccessfully(!0)}catch(e){(0,g.R)(34,e),this.abortHandler?.(),(0,u.Ze)(this.agentRef,this.featureName,!0),this.loadedSuccessfully(!1),this.ee&&this.ee.abort()}};f.RI?(0,l.GG)(()=>n(),!0):n()}#t(e,r,n){if(this.blocked)return!1;switch(e){case t.K7.sessionReplay:return h(n)&&!!r;case t.K7.sessionTrace:return!!r;default:return!0}}}var _=i(6630),w=i(2614),x=i(3241);class R extends y{static featureName=_.T;constructor(e){var t;super(e,_.T),this.setupInspectionEvents(),t=e,(0,c.Y)(a.Fw,function(e,r){"string"==typeof e&&("/"!==e.charAt(0)&&(e="/"+e),t.runtime.customTransaction=(r||"http://custom.transaction")+e,(0,s.p)(a.Pl+a.Fw,[(0,o.t)()],void 0,void 0,t.ee))},t),this.importAggregator(e,()=>i.e(296).then(i.bind(i,146)))}setupInspectionEvents(){const e=(e,t)=>{e&&(0,x.W)({timeStamp:e.timeStamp,loaded:"complete"===e.target.readyState,type:"window",name:t,data:e.target.location+""})};(0,l.sB)(t=>{e(t,"DOMContentLoaded")}),(0,l.GG)(t=>{e(t,"load")}),(0,l.Qr)(t=>{e(t,"navigate")}),this.ee.on(w.tS.UPDATE,(e,t)=>{(0,x.W)({type:"lifecycle",name:"session",data:t})})}}class k extends e.d{constructor(e){var t;(super(),f.gm)?(this.features={},(0,p.bQ)(this.agentIdentifier,this),this.desiredFeatures=new Set(e.features||[]),this.desiredFeatures.add(R),(0,n.j)(this,e,e.loaderType||"agent"),t=this,(0,c.Y)(a.cD,function(e,r,n=!1){if("string"==typeof e){if(["string","number","boolean"].includes(typeof r)||null===r)return(0,c.U)(t,e,r,a.cD,n);(0,g.R)(40,typeof r)}else(0,g.R)(39,typeof e)},t),function(e){(0,c.Y)(a.Dl,function(t,r=!1){if("string"!=typeof t&&null!==t)return void(0,g.R)(41,typeof t);const n=e.info.jsAttributes["enduser.id"];r&&null!=n&&n!==t?(0,s.p)(a.Pl+"setUserIdAndResetSession",[t],void 0,"session",e.ee):(0,c.U)(e,"enduser.id",t,a.Dl,!0)},e)}(this),function(e){(0,c.Y)(a.nb,function(t){if("string"==typeof t||null===t)return(0,c.U)(e,"application.version",t,a.nb,!1);(0,g.R)(42,typeof t)},e)}(this),function(e){(0,c.Y)(a.d3,function(){e.ee.emit("manual-start-all")},e)}(this),function(e){(0,c.Y)(a.Pv,function(t=!0){if("boolean"==typeof t){if((0,s.p)(a.Pl+a.Pv,[t],void 0,"session",e.ee),e.runtime.consented=t,t){const t=e.features.page_view_event;t.onAggregateImported.then(e=>{const r=t.featAggregate;e&&!r.sentRum&&r.sendRum()})}}else(0,g.R)(65,typeof t)},e)}(this),this.run()):(0,g.R)(21)}get config(){return{info:this.info,init:this.init,loader_config:this.loader_config,runtime:this.runtime}}get api(){return this}run(){try{const e=function(e){const t={};return r.forEach(r=>{t[r]=!!e[r]?.enabled}),t}(this.init),n=[...this.desiredFeatures];n.sort((e,r)=>t.P3[e.featureName]-t.P3[r.featureName]),n.forEach(r=>{if(!e[r.featureName]&&r.featureName!==t.K7.pageViewEvent)return;const n=function(e){switch(e){case t.K7.ajax:return[t.K7.jserrors];case t.K7.sessionTrace:return[t.K7.ajax,t.K7.pageViewEvent];case t.K7.sessionReplay:return[t.K7.sessionTrace];case t.K7.pageViewTiming:return[t.K7.pageViewEvent];default:return[]}}(r.featureName).filter(e=>!(e in this.features));n.length>0&&(0,g.R)(36,{targetFeature:r.featureName,missingDependencies:n}),this.features[r.featureName]=new r(this)})}catch(e){(0,g.R)(22,e);for(const e in this.features)this.features[e].abortHandler?.();const t=(0,p.Zm)();delete t.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator;return t.ee.get(this.agentIdentifier).abort(),!1}}}var A=i(2843),T=i(782);class E extends y{static featureName=T.T;constructor(e){super(e,T.T),f.RI&&((0,A.u)(()=>(0,s.p)("docHidden",[(0,o.t)()],void 0,T.T,this.ee),!0),(0,A.G)(()=>(0,s.p)("winPagehide",[(0,o.t)()],void 0,T.T,this.ee)),this.importAggregator(e,()=>i.e(296).then(i.bind(i,2117))))}}var S=i(3969);class j extends y{static featureName=S.TZ;constructor(e){super(e,S.TZ),f.RI&&document.addEventListener("securitypolicyviolation",e=>{(0,s.p)(S.xV,["Generic/CSPViolation/Detected"],void 0,this.featureName,this.ee)}),this.importAggregator(e,()=>i.e(296).then(i.bind(i,9623)))}}new k({features:[R,E,j],loaderType:"lite"})})()})();</script>
+  <meta http-equiv="Cache-Control" max-age="2592000">
+  <meta http-equiv="Expires" content="1" />
+
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="p:domain_verify" content="96e683d0045e44dfac2deaec70e57185"/>
+
+  <link rel="icon" type="image/x-icon" href="/assets/favicon-9d06eb31fc41af6ef76f2954364a3a0b75637640a367d1816b9bf8b9ce392cb6.ico" />
+
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/apple-touch-icon-precomposed-24e2ef01d16313b2007bc178c55d64c564f71fb746290e81f4cf57f9d394a4c6.png">
+    <link rel="canonical" href="https://www.creative-tim.com/product/soft-ui-flowbite" data-turbolinks-track="false" itemprop="url"/>
+
+  <title itemprop="name">
+      Soft UI Flowbite: Free Tailwind CSS Admin Template @ Creative Tim
+  </title>
+      <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@CreativeTim" />
+    <meta name="twitter:creator" content="@CreativeTim" />
+    <meta name="twitter:title" content="Soft UI Flowbite by Creative Tim" />
+    <meta name="twitter:description" content="Free Tailwind CSS Admin Template" />
+    <meta name="twitter:image" content="https://s3.amazonaws.com/creativetim_bucket/products/644/original/soft-ui-flowbite.jpg?1655456572" />
+    <meta name="twitter:url" content="https://www.creative-tim.com/product/soft-ui-flowbite" />
+
+
+  <meta name="description" content="Download Soft UI Flowbite, a Free Tailwind CSS Admin Template developed by Creative Tim. Over 30 components, see the live demo on our site and join over 1,800,000 creatives!">
+<meta name="keywords" content="creativetim, creative tim, bootstrap, theme, freebies, bootstrap kit, bootstrap template, free items, beautiful ui">
+<meta property="og:app_id" content="655968634437471">
+<meta property="og:type" content="product">
+<meta property="og:title" content="Soft UI Flowbite by Creative Tim">
+<meta property="og:url" content="https://www.creative-tim.com/product/soft-ui-flowbite">
+<meta property="og:image" content="https://s3.amazonaws.com/creativetim_bucket/products/644/original/soft-ui-flowbite.jpg?1655456572">
+<meta property="product:price:amount" content="Free">
+<meta property="product:price:currency" content="USD">
+<meta property="product:availability" content="in Stock">
+<meta property="product:brand" content="Creative Tim">
+<meta property="product:category" content="All Templates">
+<meta name="data-turbolinks-track" content="false">
+  <link rel="stylesheet" href="/assets/creative-tim-product-page-6f2e6a4a26933cd00f9827cc0389ade68afa955ef8dc2768cc7109429fc7cf0b.css" media="screen" data-turbolinks-track="reload" async="async" cache="true" />
+
+  <!-- font -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" media="screen"
+        rel="stylesheet"
+        async="true" cache="true">
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="KfSGjJzsgBAoi5Igqf-vfMwWPCyDjzJHp2cVa3_Au-NAPJYo_toGYKJCV4gMma-VkhODn7By_j3evfCem1SZoA" />
+
+  <!--  js   -->
+  <script src="/assets/creative-tim/creative-tim-product-page-58685776396a14d4ada279be258df7a13337c58fe5424bd67e9d2b44c9c55285.js" data-turbolinks-track="reload" defer="defer"></script>
+
+
+  <!-- Anti-flicker snippet (recommended)  -->
+<style defer="defer">.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+    h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+    (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+    {'GTM-K9BGS8K':true});</script>
+  <!-- Analytics-Optimize Snippet -->
+<script defer="defer">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-46172202-22', 'auto', {allowLinker: true});
+    ga('set', 'anonymizeIp', true);
+    ga('require', 'GTM-K9BGS8K');
+    ga('require', 'displayfeatures');
+    ga('require', 'linker');
+    ga('linker:autoLink', ["2checkout.com","avangate.com"]);
+</script>
+<!-- end Analytics-Optimize Snippet -->
+
+<!--  trebuie sa vina data layer -->
+    <script defer="defer">
+// dataLayer product
+var dataLayer = dataLayer || [];
+dataLayer.push({
+  'pageType':'Product',
+  'productName':'Soft UI Flowbite',
+  'singleProductID':'644',
+  'singleAvangateProductID':'0',
+  'productPrice':'0.0',
+  'pageDomain':'MainDomain'
+});
+// end dataLayer product
+
+</script>
+  <!-- Google Tag Manager -->
+<script defer="defer">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NKDMSK6');</script>
+<!-- End Google Tag Manager -->
+
+  
+
+
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+</head>
+
+<body class="product-page">
+  
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12&appId=655968634437471&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script type="text/javascript">
+
+    function shareFacebookWithCallBack(){
+       $.post('/share',{social_network : 1, product_id : parseInt('644'), provider: 'facebook' },function(data){
+            if(data['status'] == 'ok'){
+                console.log('ShareUp');
+            }
+       });
+    }
+    //twitter share
+        window.twttr = (function (d,s,id) {
+          var t, js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+          js.src="https://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+          return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+        }(document, "script", "twitter-wjs"));
+
+        // On ready, register the callback...
+        twttr.ready(function (twttr) {
+            twttr.events.bind('tweet', function (event) {
+                $.post('/share',{social_network : 2, product_id : parseInt('644'), provider: 'twitter' },function(data){
+                    if(data['status'] == 'ok'){
+                        console.log('ShareUp');
+                    }
+               });
+            });
+        });
+
+    function googleShare(event){
+        var width  = 575,
+        height = 400,
+        left   = ($(window).width()  - width)  / 2,
+        top    = ($(window).height() - height) / 2,
+        url    = 'https://plus.google.com/share?url=https://www.creative-tim.com/product/soft-ui-flowbite',
+        opts   = 'status=1' +
+                 ',width='  + width  +
+                 ',height=' + height +
+                 ',top='    + top    +
+                 ',left='   + left;
+        window.open(url, 'Google+', opts);
+        $.post('/share',{social_network : 3, product_id : parseInt('644'), provider: 'google' },function(data){
+                    if(data['status'] == 'ok'){
+                        console.log('ShareUp');
+                    }
+               });
+        return false;
+    }
+</script>
+
+  
+  <!--remove script-->
+
+
+<input type="hidden" id="product_id" value="644">
+
+<div itemscope itemtype="https://schema.org/Product">
+
+    <div id="productPage" class="section-header gradient-black" data-turbolinks="false">
+        <nav id="navbar" class="navbar filter-bar fixed-absolute test-class-product-page">
+    <div class="notification">
+  <div id="notif-message" class="notif-message" style="display: none;" notice-type=success>
+  </div>
+</div>
+
+<header style="position: fixed; top: 0; z-index: 50; width: 100%; padding-top: 16px;">
+  <div class="container-fluid" style="padding-left: 8px; padding-right: 8px; max-width: 1400px;">
+    <div style="margin: 0 auto; border-radius: 9999px; border: 1px solid rgba(255, 255, 255, 0.1); background: rgba(0, 0, 0, 0.8); backdrop-filter: blur(4px);">
+      <div style="display: flex; align-items: center; justify-content: space-between; height: 48px; padding-left: 8px; padding-right: 8px;">
+        <!-- Left: Logo + Brand + Nav -->
+        <div style="display: flex; align-items: center; gap: 12px; flex: 1;">
+          <a href="/" style="display: flex; align-items: center; gap: 8px; text-decoration: none;" data-turbolinks="false">
+            <img style="height: 32px; width: 32px; border-radius: 50%;" alt="Creative Tim" loading="lazy" src="https://www.creative-tim.com/ui/apple-touch-icon-square.jpg" />
+            <span style="display: inline-block; font-size: 14px; font-weight: 600; color: white;">
+              Creative Tim
+            </span>
+          </a>
+
+          <!-- Vertical Line Separator -->
+          <div class="hidden-xs hidden-sm hidden-md visible-lg" style="height: 24px; width: 1px; background: rgba(255, 255, 255, 0.2);"></div>
+
+          <!-- Navigation Links -->
+          <div class="hidden-xs hidden-sm hidden-md visible-lg">
+            <nav style="display: flex; align-items: center; gap: 16px;">
+              <!-- AI Agents Mega Menu -->
+              <div class="dropdown dropdown-categories" data-turbolinks="false">
+                <button class="dropdown-toggle navbar-dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  AI Agents
+                  <i class="fa fa-angle-down navbar-dropdown-icon"></i>
+                </button>
+                <div class="dropdown-menu mega-menu-modern py-0">
+  <div class="dropdown-overflow">
+    <div class="dropdown-wrapper">
+      <!-- 3 columns grid -->
+      <div class="mega-menu-grid">
+        <!-- OpenClaw AI Assistant -->
+        <a href="https://www.creative-tim.com/ui/openclaw" style="display: flex; flex-direction: column; gap: 8px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.05); background: rgba(255, 255, 255, 0.05); padding: 12px; text-decoration: none; transition: all 0.2s;" onmouseover="this.style.borderColor='rgba(255, 255, 255, 0.2)'; this.style.backgroundColor='rgba(255, 255, 255, 0.1)'" onmouseout="this.style.borderColor='rgba(255, 255, 255, 0.05)'; this.style.backgroundColor='rgba(255, 255, 255, 0.05)'">
+          <div class="aspect-video" style="overflow: hidden; border-radius: 6px;">
+            <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/refs/heads/master/creative-tim/openclaw-thumb.png" alt="OpenClaw AI Assistant" style="height: 100%; width: 100%; object-fit: cover; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" />
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 4px;">
+            <h3 style="font-size: 14px; font-weight: 600; color: white; margin: 0;">OpenClaw AI Assistant</h3>
+            <p style="font-size: 12px; color: rgba(255, 255, 255, 0.6); margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">1-click deploy your personal AI assistant. Integrations, code execution, Claude models, Telegram, cron jobs and more.</p>
+          </div>
+        </a>
+
+        <!-- Skills.md and Stacks -->
+        <a href="https://www.creative-tim.com/ui/skills" style="display: flex; flex-direction: column; gap: 8px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.05); background: rgba(255, 255, 255, 0.05); padding: 12px; text-decoration: none; transition: all 0.2s;" onmouseover="this.style.borderColor='rgba(255, 255, 255, 0.2)'; this.style.backgroundColor='rgba(255, 255, 255, 0.1)'" onmouseout="this.style.borderColor='rgba(255, 255, 255, 0.05)'; this.style.backgroundColor='rgba(255, 255, 255, 0.05)'">
+          <div class="aspect-video" style="overflow: hidden; border-radius: 6px;">
+            <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/refs/heads/master/creative-tim/skills-thumb.png" alt="Skills.md and Stacks" style="height: 100%; width: 100%; object-fit: cover; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" />
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 4px;">
+            <h3 style="font-size: 14px; font-weight: 600; color: white; margin: 0;">Skills.md and Stacks</h3>
+            <p style="font-size: 12px; color: rgba(255, 255, 255, 0.6); margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">Browse and add skills for AI assistants. Enhance your agents with pre-built capabilities.</p>
+          </div>
+        </a>
+
+        <!-- Deploy AI Agents for Customer Support -->
+        <a href="https://www.galichat.com/" target="_blank" rel="noreferrer" style="display: flex; flex-direction: column; gap: 8px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.05); background: rgba(255, 255, 255, 0.05); padding: 12px; text-decoration: none; transition: all 0.2s;" onmouseover="this.style.borderColor='rgba(255, 255, 255, 0.2)'; this.style.backgroundColor='rgba(255, 255, 255, 0.1)'" onmouseout="this.style.borderColor='rgba(255, 255, 255, 0.05)'; this.style.backgroundColor='rgba(255, 255, 255, 0.05)'">
+          <div class="aspect-video" style="overflow: hidden; border-radius: 6px;">
+            <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/refs/heads/master/gali/galichat-thumbnail-big.jpg" alt="Deploy AI Agents for Customer Support" style="height: 100%; width: 100%; object-fit: cover; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" />
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 4px;">
+            <h3 style="font-size: 14px; font-weight: 600; color: white; margin: 0;">Deploy AI Agents for Customer Support</h3>
+            <p style="font-size: 12px; color: rgba(255, 255, 255, 0.6); margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">Deploy intelligent AI agents trained on your knowledge base.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+              </div>
+
+              <!-- UI Blocks Mega Menu -->
+              <div class="dropdown dropdown-categories" data-turbolinks="false">
+                <button class="dropdown-toggle navbar-dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  UI Blocks
+                  <i class="fa fa-angle-down navbar-dropdown-icon"></i>
+                </button>
+                <div class="dropdown-menu mega-menu-modern py-0">
+  <div class="dropdown-overflow">
+    <div class="dropdown-wrapper">
+      <!-- 3 columns x 2 rows grid -->
+      <div class="mega-menu-grid">
+        <!-- Web3 Collection -->
+        <a href="https://www.creative-tim.com/ui/blocks/web3-collection" style="display: flex; flex-direction: column; gap: 8px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.05); background: rgba(255, 255, 255, 0.05); padding: 12px; text-decoration: none; transition: all 0.2s;" onmouseover="this.style.borderColor='rgba(255, 255, 255, 0.2)'; this.style.backgroundColor='rgba(255, 255, 255, 0.1)'" onmouseout="this.style.borderColor='rgba(255, 255, 255, 0.05)'; this.style.backgroundColor='rgba(255, 255, 255, 0.05)'">
+          <div class="aspect-video" style="overflow: hidden; border-radius: 6px;">
+            <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/refs/heads/master/creative-ai/web3-collection-thumbnail.jpg" alt="Web3 Collection" style="height: 100%; width: 100%; object-fit: cover; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" />
+          </div>
+          <div style="display: flex; align-items: center; justify-content: space-between;">
+            <h3 style="font-size: 14px; font-weight: 600; color: white; margin: 0;">Web3 Collection</h3>
+            <span style="font-size: 12px; color: rgba(255, 255, 255, 0.5);">blocks</span>
+          </div>
+        </a>
+
+        <!-- Application Admin -->
+        <a href="https://www.creative-tim.com/ui/blocks/application-admin" style="display: flex; flex-direction: column; gap: 8px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.05); background: rgba(255, 255, 255, 0.05); padding: 12px; text-decoration: none; transition: all 0.2s;" onmouseover="this.style.borderColor='rgba(255, 255, 255, 0.2)'; this.style.backgroundColor='rgba(255, 255, 255, 0.1)'" onmouseout="this.style.borderColor='rgba(255, 255, 255, 0.05)'; this.style.backgroundColor='rgba(255, 255, 255, 0.05)'">
+          <div class="aspect-video" style="overflow: hidden; border-radius: 6px;">
+            <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/refs/heads/master/creative-ai/admin-collection-thumbnail.jpg" alt="Application Admin" style="height: 100%; width: 100%; object-fit: cover; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" />
+          </div>
+          <div style="display: flex; align-items: center; justify-content: space-between;">
+            <h3 style="font-size: 14px; font-weight: 600; color: white; margin: 0;">Application Admin</h3>
+            <span style="font-size: 12px; color: rgba(255, 255, 255, 0.5);">blocks</span>
+          </div>
+        </a>
+
+        <!-- Marketing Presentation -->
+        <a href="https://www.creative-tim.com/ui/blocks/marketing-presentation" style="display: flex; flex-direction: column; gap: 8px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.05); background: rgba(255, 255, 255, 0.05); padding: 12px; text-decoration: none; transition: all 0.2s;" onmouseover="this.style.borderColor='rgba(255, 255, 255, 0.2)'; this.style.backgroundColor='rgba(255, 255, 255, 0.1)'" onmouseout="this.style.borderColor='rgba(255, 255, 255, 0.05)'; this.style.backgroundColor='rgba(255, 255, 255, 0.05)'">
+          <div class="aspect-video" style="overflow: hidden; border-radius: 6px;">
+            <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/refs/heads/master/creative-ai/marketing-collection-thumbnail.jpg" alt="Marketing Presentation" style="height: 100%; width: 100%; object-fit: cover; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" />
+          </div>
+          <div style="display: flex; align-items: center; justify-content: space-between;">
+            <h3 style="font-size: 14px; font-weight: 600; color: white; margin: 0;">Marketing Presentation</h3>
+            <span style="font-size: 12px; color: rgba(255, 255, 255, 0.5);">blocks</span>
+          </div>
+        </a>
+
+        <!-- Content UI -->
+        <a href="https://www.creative-tim.com/ui/blocks/content-ui" style="display: flex; flex-direction: column; gap: 8px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.05); background: rgba(255, 255, 255, 0.05); padding: 12px; text-decoration: none; transition: all 0.2s;" onmouseover="this.style.borderColor='rgba(255, 255, 255, 0.2)'; this.style.backgroundColor='rgba(255, 255, 255, 0.1)'" onmouseout="this.style.borderColor='rgba(255, 255, 255, 0.05)'; this.style.backgroundColor='rgba(255, 255, 255, 0.05)'">
+          <div class="aspect-video" style="overflow: hidden; border-radius: 6px;">
+            <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/refs/heads/master/creative-ai/content-ui-collection-thumbnail.jpg" alt="Content UI" style="height: 100%; width: 100%; object-fit: cover; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" />
+          </div>
+          <div style="display: flex; align-items: center; justify-content: space-between;">
+            <h3 style="font-size: 14px; font-weight: 600; color: white; margin: 0;">Content UI</h3>
+            <span style="font-size: 12px; color: rgba(255, 255, 255, 0.5);">blocks</span>
+          </div>
+        </a>
+
+        <!-- Ecommerce UI -->
+        <a href="https://www.creative-tim.com/ui/blocks/ecommerce-ui" style="display: flex; flex-direction: column; gap: 8px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.05); background: rgba(255, 255, 255, 0.05); padding: 12px; text-decoration: none; transition: all 0.2s;" onmouseover="this.style.borderColor='rgba(255, 255, 255, 0.2)'; this.style.backgroundColor='rgba(255, 255, 255, 0.1)'" onmouseout="this.style.borderColor='rgba(255, 255, 255, 0.05)'; this.style.backgroundColor='rgba(255, 255, 255, 0.05)'">
+          <div class="aspect-video" style="overflow: hidden; border-radius: 6px;">
+            <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/refs/heads/master/creative-ai/ecommerce-collection-thumbnail.jpg" alt="Ecommerce UI" style="height: 100%; width: 100%; object-fit: cover; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" />
+          </div>
+          <div style="display: flex; align-items: center; justify-content: space-between;">
+            <h3 style="font-size: 14px; font-weight: 600; color: white; margin: 0;">Ecommerce UI</h3>
+            <span style="font-size: 12px; color: rgba(255, 255, 255, 0.5);">blocks</span>
+          </div>
+        </a>
+
+        <!-- AI Agents Collection -->
+        <a href="https://www.creative-tim.com/ui/blocks/ai-agents" style="display: flex; flex-direction: column; gap: 8px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.05); background: rgba(255, 255, 255, 0.05); padding: 12px; text-decoration: none; transition: all 0.2s;" onmouseover="this.style.borderColor='rgba(255, 255, 255, 0.2)'; this.style.backgroundColor='rgba(255, 255, 255, 0.1)'" onmouseout="this.style.borderColor='rgba(255, 255, 255, 0.05)'; this.style.backgroundColor='rgba(255, 255, 255, 0.05)'">
+          <div class="aspect-video" style="overflow: hidden; border-radius: 6px;">
+            <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/refs/heads/master/creative-ai/ai-agents-collection-thumbnail.jpg" alt="AI Agents" style="height: 100%; width: 100%; object-fit: cover; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" />
+          </div>
+          <div style="display: flex; align-items: center; justify-content: space-between;">
+            <h3 style="font-size: 14px; font-weight: 600; color: white; margin: 0;">AI Agents</h3>
+            <span style="font-size: 12px; color: rgba(255, 255, 255, 0.5);">blocks</span>
+          </div>
+        </a>
+      </div>
+
+      <!-- View All Link -->
+      <div style="margin-top: 16px; border-top: 1px solid rgba(255, 255, 255, 0.1); padding-top: 16px; text-align: center;">
+        <a href="https://www.creative-tim.com/ui/blocks" style="font-size: 14px; font-weight: 500; color: rgba(255, 255, 255, 0.7); text-decoration: none; transition: color 0.2s;" onmouseover="this.style.color='white'" onmouseout="this.style.color='rgba(255, 255, 255, 0.7)'">
+          View All UI →
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+              </div>
+
+              <!-- Products Mega Menu -->
+              <div class="dropdown dropdown-categories" data-turbolinks="false">
+                <button class="dropdown-toggle navbar-dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Products
+                  <i class="fa fa-angle-down navbar-dropdown-icon"></i>
+                </button>
+                <div class="dropdown-menu mega-menu-modern py-0">
+  <div class="dropdown-overflow">
+    <div class="dropdown-wrapper">
+      <!-- 3 columns x 2 rows grid -->
+      <div class="mega-menu-grid">
+        <!-- Creative Tim UI - shadcn Blocks -->
+        <a href="https://www.creative-tim.com/ui/" target="_blank" rel="noreferrer" style="display: flex; flex-direction: column; gap: 8px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.05); background: rgba(255, 255, 255, 0.05); padding: 12px; text-decoration: none; transition: all 0.2s;" onmouseover="this.style.borderColor='rgba(255, 255, 255, 0.2)'; this.style.backgroundColor='rgba(255, 255, 255, 0.1)'" onmouseout="this.style.borderColor='rgba(255, 255, 255, 0.05)'; this.style.backgroundColor='rgba(255, 255, 255, 0.05)'">
+          <div class="aspect-video" style="overflow: hidden; border-radius: 6px;">
+            <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/refs/heads/master/creative-ai/shadcn-blocks-black-friday.jpg" alt="Creative Tim UI - shadcn Blocks" style="height: 100%; width: 100%; object-fit: cover; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" />
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 4px;">
+            <h3 style="font-size: 14px; font-weight: 600; color: white; margin: 0;">Creative Tim UI - shadcn Blocks</h3>
+            <p style="font-size: 12px; color: rgba(255, 255, 255, 0.6); margin: 0; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">Seamlessly integrate with v0, Lovable, Replit, and other AI platforms. Reduce token usage and save money with our CLI and MCP support.</p>
+          </div>
+        </a>
+
+        <!-- Material Tailwind PRO -->
+        <a href="https://www.material-tailwind.com/v3/pro" target="_blank" rel="noreferrer" style="display: flex; flex-direction: column; gap: 8px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.05); background: rgba(255, 255, 255, 0.05); padding: 12px; text-decoration: none; transition: all 0.2s;" onmouseover="this.style.borderColor='rgba(255, 255, 255, 0.2)'; this.style.backgroundColor='rgba(255, 255, 255, 0.1)'" onmouseout="this.style.borderColor='rgba(255, 255, 255, 0.05)'; this.style.backgroundColor='rgba(255, 255, 255, 0.05)'">
+          <div class="aspect-video" style="overflow: hidden; border-radius: 6px;">
+            <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/refs/heads/master/creative-ai/material-tailwind-black-friday.jpg" alt="Material Tailwind PRO" style="height: 100%; width: 100%; object-fit: cover; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" />
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 4px;">
+            <h3 style="font-size: 14px; font-weight: 600; color: white; margin: 0;">Material Tailwind PRO - Tailwind CSS Blocks</h3>
+            <p style="font-size: 12px; color: rgba(255, 255, 255, 0.6); margin: 0; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">Build sleek UIs and complex systems with tools that provide everything you need to accelerate your workflow: both code and design-ready.</p>
+          </div>
+        </a>
+
+        <!-- Creative Tim Club -->
+        <a href="https://www.creative-tim.com/" target="_blank" rel="noreferrer" style="display: flex; flex-direction: column; gap: 8px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.05); background: rgba(255, 255, 255, 0.05); padding: 12px; text-decoration: none; transition: all 0.2s;" onmouseover="this.style.borderColor='rgba(255, 255, 255, 0.2)'; this.style.backgroundColor='rgba(255, 255, 255, 0.1)'" onmouseout="this.style.borderColor='rgba(255, 255, 255, 0.05)'; this.style.backgroundColor='rgba(255, 255, 255, 0.05)'">
+          <div class="aspect-video" style="overflow: hidden; border-radius: 6px;">
+            <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/refs/heads/master/creative-ai/creative-tim-club-black-friday.jpg" alt="Creative Tim Club" style="height: 100%; width: 100%; object-fit: cover; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" />
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 4px;">
+            <h3 style="font-size: 14px; font-weight: 600; color: white; margin: 0;">Creative Tim Club - 130+ Premium Templates</h3>
+            <p style="font-size: 12px; color: rgba(255, 255, 255, 0.6); margin: 0; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">Access 130+ premium templates and dashboards for React, Vue, HTML, Bootstrap, Angular, and more. Everything you need for your next project.</p>
+          </div>
+        </a>
+
+        <!-- n8n Workflow Templates -->
+        <a href="https://www.creative-tim.com/product/n8n-workflow-templates-collection" target="_blank" rel="noreferrer" style="display: flex; flex-direction: column; gap: 8px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.05); background: rgba(255, 255, 255, 0.05); padding: 12px; text-decoration: none; transition: all 0.2s;" onmouseover="this.style.borderColor='rgba(255, 255, 255, 0.2)'; this.style.backgroundColor='rgba(255, 255, 255, 0.1)'" onmouseout="this.style.borderColor='rgba(255, 255, 255, 0.05)'; this.style.backgroundColor='rgba(255, 255, 255, 0.05)'">
+          <div class="aspect-video" style="overflow: hidden; border-radius: 6px;">
+            <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/refs/heads/master/creative-ai/n8n-workflow-automation-templates.jpg" alt="n8n Workflow Templates" style="height: 100%; width: 100%; object-fit: cover; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" />
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 4px;">
+            <h3 style="font-size: 14px; font-weight: 600; color: white; margin: 0;">n8n Workflow Templates Collection</h3>
+            <p style="font-size: 12px; color: rgba(255, 255, 255, 0.6); margin: 0; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">Supercharge Your Business Automation with Ready-to-Use Workflows!</p>
+          </div>
+        </a>
+
+        <!-- Creative AI Pixels -->
+        <a href="https://www.creative-tim.com/" target="_blank" rel="noreferrer" style="display: flex; flex-direction: column; gap: 8px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.05); background: rgba(255, 255, 255, 0.05); padding: 12px; text-decoration: none; transition: all 0.2s;" onmouseover="this.style.borderColor='rgba(255, 255, 255, 0.2)'; this.style.backgroundColor='rgba(255, 255, 255, 0.1)'" onmouseout="this.style.borderColor='rgba(255, 255, 255, 0.05)'; this.style.backgroundColor='rgba(255, 255, 255, 0.05)'">
+          <div class="aspect-video" style="overflow: hidden; border-radius: 6px;">
+            <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/refs/heads/master/creative-ai/creative-ai-pixels-thumb.jpg" alt="Creative AI Pixels" style="height: 100%; width: 100%; object-fit: cover; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" />
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 4px;">
+            <h3 style="font-size: 14px; font-weight: 600; color: white; margin: 0;">Creative AI Pixels</h3>
+            <p style="font-size: 12px; color: rgba(255, 255, 255, 0.6); margin: 0; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">Generate visual assets, illustrations, and marketing materials with AI-powered design tools.</p>
+          </div>
+        </a>
+      </div>
+
+      <!-- View All Link -->
+      <div style="margin-top: 16px; border-top: 1px solid rgba(255, 255, 255, 0.1); padding-top: 16px; text-align: center;">
+        <a href="https://www.creative-tim.com/home#platform-capabilities" style="font-size: 14px; font-weight: 500; color: rgba(255, 255, 255, 0.7); text-decoration: none; transition: color 0.2s;" onmouseover="this.style.color='white'" onmouseout="this.style.color='rgba(255, 255, 255, 0.7)'">
+          View All Products →
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+              </div>
+
+              <!-- Skills Link -->
+              <a href="https://www.creative-tim.com/ui/skills" target="_blank" class="navbar-link">
+                Skills
+              </a>
+
+              <!-- Marketplace Link -->
+              <a href="https://www.creative-tim.com/marketplace" target="_blank" class="navbar-link">
+                Marketplace
+              </a>
+            </nav>
+          </div>
+        </div>
+
+        <!-- Right: Actions -->
+        <div style="display: flex; align-items: center; gap: 8px; padding-right: 16px;">
+          <!-- Search -->
+            <div class="hidden-xs visible-sm visible-md visible-lg">
+              <a href="#search-modal" role="button" data-toggle="modal" class="navbar-search-btn">
+                <span class="hidden-xs hidden-sm hidden-md visible-lg">Search...</span>
+                <span class="visible-xs visible-sm visible-md hidden-lg">Search...</span>
+                <div style="position: absolute; top: 6px; right: 6px; display: flex; gap: 4px;" class="hidden-xs">
+                  <kbd style="pointer-events: none; display: inline-flex; height: 20px; user-select: none; align-items: center; gap: 4px; border-radius: 16px; background: rgba(255, 255, 255, 0.1); padding: 0 6px; font-family: monospace; font-size: 10px; font-weight: 500; opacity: 1;">
+                    <span style="font-size: 12px;">⌘</span>
+                  </kbd>
+                  <kbd style="pointer-events: none; display: inline-flex; height: 20px; user-select: none; align-items: center; gap: 4px; border-radius: 16px; background: rgba(255, 255, 255, 0.1); padding: 0 6px; font-family: monospace; font-size: 10px; font-weight: 500; opacity: 1;">
+                    <span style="font-size: 12px;">K</span>
+                  </kbd>
+                </div>
+              </a>
+            </div>
+
+          <!-- Blog Link -->
+          <a href="https://www.creative-tim.com/blog" target="_blank" rel="noreferrer" class="navbar-link hidden-xs hidden-sm hidden-md visible-lg" style="margin-right: 8px;">
+            Blog
+          </a>
+
+          <!-- Pricing Button -->
+          <a href="https://www.creative-tim.com?scroll=pricing" class="navbar-link hidden-xs hidden-sm hidden-md visible-lg" style="margin-right: 8px;">
+            Pricing
+          </a>
+
+          <!-- Account / Login -->
+            <a href="javascript:;" onclick="openLoginModal();" role="button" data-toggle="modal" rel="nofollow" class="navbar-link hidden-xs hidden-sm hidden-md visible-lg" style="display: flex; align-items: center; gap: 4px;">
+              Login/Register
+            </a>
+
+          <!-- Mobile Menu Toggle -->
+          <button type="button" class="navbar-mobile-toggle visible-xs visible-sm visible-md hidden-lg" data-toggle="collapse" data-target=".navbar-mobile-collapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile Navigation -->
+<div class="visible-xs visible-sm visible-md hidden-lg">
+  <div class="collapse navbar-mobile-collapse" style="position: fixed; top: 64px; left: 0; right: 0; bottom: 0; z-index: 40; background: rgba(0, 0, 0, 0.95); backdrop-filter: blur(4px); border-top: 1px solid rgba(255, 255, 255, 0.1); overflow-y: auto; -webkit-overflow-scrolling: touch;">
+    <div class="container" style="padding: 16px;">
+    <nav style="display: flex; flex-direction: column; gap: 16px;">
+      <!-- Search -->
+      <a href="#search-modal" role="button" data-toggle="modal" class="navbar-mobile-link" style="display: flex; align-items: center; gap: 8px; font-weight: 500;">
+        <i class="fa fa-search"></i>
+        Search
+      </a>
+
+      <!-- AI Agents Section -->
+      <div>
+        <div style="color: rgba(255, 255, 255, 0.9); font-size: 16px; font-weight: 600; margin-bottom: 12px;">AI Agents</div>
+        <div style="display: flex; flex-direction: column; gap: 12px; padding-left: 16px;">
+          <a href="https://www.creative-tim.com/ui/openclaw" class="navbar-mobile-link">OpenClaw AI Assistant</a>
+          <a href="https://www.creative-tim.com/ui/skills" class="navbar-mobile-link">Skills.md and Stacks</a>
+          <a href="https://www.galichat.com/" target="_blank" class="navbar-mobile-link">Deploy AI Agents for Customer Support</a>
+        </div>
+      </div>
+
+      <!-- UI Blocks Section -->
+      <div>
+        <div style="color: rgba(255, 255, 255, 0.9); font-size: 16px; font-weight: 600; margin-bottom: 12px;">UI Blocks</div>
+        <div style="display: flex; flex-direction: column; gap: 12px; padding-left: 16px;">
+          <a href="https://www.creative-tim.com/ui/blocks/web3-collection" class="navbar-mobile-link">Web3 Collection</a>
+          <a href="https://www.creative-tim.com/ui/blocks/application-admin" class="navbar-mobile-link">Application Admin</a>
+          <a href="https://www.creative-tim.com/ui/blocks/marketing-presentation" class="navbar-mobile-link">Marketing Presentation</a>
+          <a href="https://www.creative-tim.com/ui/blocks/content-ui" class="navbar-mobile-link">Content UI</a>
+          <a href="https://www.creative-tim.com/ui/blocks/ecommerce-ui" class="navbar-mobile-link">Ecommerce UI</a>
+          <a href="https://www.creative-tim.com/ui/blocks/ai-agents" class="navbar-mobile-link">AI Agents</a>
+          <a href="https://www.creative-tim.com/ui/blocks" class="navbar-mobile-link" style="font-weight: 500;">View All UI →</a>
+        </div>
+      </div>
+
+      <!-- Products Section -->
+      <div>
+        <div style="color: rgba(255, 255, 255, 0.9); font-size: 16px; font-weight: 600; margin-bottom: 12px;">Products</div>
+        <div style="display: flex; flex-direction: column; gap: 12px; padding-left: 16px;">
+          <a href="https://www.creative-tim.com/ui/" target="_blank" class="navbar-mobile-link">Creative Tim UI - shadcn Blocks</a>
+          <a href="https://www.material-tailwind.com/v3/pro" target="_blank" class="navbar-mobile-link">Material Tailwind PRO</a>
+          <a href="https://www.creative-tim.com/club" target="_blank" class="navbar-mobile-link">Creative Tim Club</a>
+          <a href="https://www.creative-tim.com/product/n8n-workflow-templates-collection" target="_blank" class="navbar-mobile-link">n8n Workflow Templates</a>
+          <a href="https://www.creative-tim.com/ai/pixels" target="_blank" class="navbar-mobile-link">Creative AI Pixels</a>
+          <a href="https://www.creative-tim.com/home#platform-capabilities" class="navbar-mobile-link" style="font-weight: 500;">View All Products →</a>
+        </div>
+      </div>
+
+     
+      <a href="https://www.creative-tim.com/marketplace" target="_blank" class="navbar-mobile-link" style="font-weight: 500;">Marketplace</a>
+
+    
+      <a href="https://www.creative-tim.com/blog" target="_blank" class="navbar-mobile-link" style="font-weight: 500;">Blog</a>
+
+     
+      <a href="https://www.creative-tim.com?scroll=pricing" class="navbar-mobile-link" style="font-weight: 500;">Pricing</a>
+
+     
+        <a href="javascript:;" onclick="openLoginModal();" class="navbar-mobile-link" style="font-weight: 500;">Login/Register</a>
+    </nav>
+    </div>
+  </div>
+</div>
+
+<style>
+  /* Modern Navbar Styles */
+  .dropdown-categories .lucide{
+    width: 18px;
+    height: 18px;
+  }
+  .navbar-elements-position {
+    padding-top: 80px; /* Space for fixed header */
+  }
+  .dropdown-menu-shadcn li{
+      margin-bottom: 0px !important;
+  }
+
+  /* Dropdown Menu Styling - Modern shadcn/ui style */
+  .dropdown-menu {
+    min-width: 900px;
+    padding: 24px;
+    margin-top: 0;
+    padding-top: 16px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    position: absolute !important;
+    left: auto !important;
+    right: auto !important;
+    top: 100% !important;
+    transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out, visibility 0.2s ease-in-out !important;
+  }
+
+  /* shadcn-style dropdown menu for account menu */
+  .dropdown-menu.dropdown-menu-navbar {
+    min-width: 8rem;
+    width: 12rem;
+    padding: 4px;
+    margin-top: -6px;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+
+  .dropdown-header-shadcn{
+      padding: 8px 8px 0px 8px;
+      font-size: 12px;
+      text-transform: uppercase;
+      font-weight: 600;
+      opacity: .5;
+      color: #0a0a0a !important;
+  }
+  /* Remove default list styling for shadcn items */
+  .dropdown-item-shadcn {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* shadcn-style dropdown links */
+  .dropdown-link-shadcn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 0px;
+    padding: 6px 8px !important;
+    font-size: 14px;
+    color: #0a0a0a !important;
+    text-decoration: none;
+    cursor: pointer;
+    border: none !important;
+    transition: background-color 0.15s, color 0.15s;
+    outline: none;
+    user-select: none;
+  }
+
+  
+  .dropdown-link-shadcn:hover,
+  .dropdown-link-shadcn:focus {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+  }
+
+  /* Logout link - red color */
+  .dropdown-link-logout {
+    color: #ef4444;
+  }
+
+  .dropdown-link-logout:hover,
+  .dropdown-link-logout:focus {
+    background-color: rgba(239, 68, 68, 0.1);
+    color: #ef4444;
+  }
+
+  /* shadcn-style separator */
+  .dropdown-separator-shadcn {
+    height: 1px;
+    background-color: rgba(0,0,0, 0.15);
+    margin: 4px 8px;
+    border: none;
+    list-style: none;
+  }
+
+  /* Mega Menu Modern Style - Fixed positioning to prevent jump */
+  .dropdown-categories .dropdown-menu.mega-menu-modern {
+    position: absolute !important;
+    left: 0 !important;
+    right: auto !important;
+    transform: translateX(-20%) translateY(0) !important;
+    background: rgba(0,0,0,0.95) !important;
+    will-change: transform, opacity;
+    opacity: 0;
+    visibility: hidden;
+    margin-top: -8px !important;
+  }
+
+  /* When dropdown is open */
+  .dropdown-categories.dropdown.open .dropdown-menu.mega-menu-modern,
+  .dropdown-categories.dropdown.open .mega-menu-modern {
+    position: absolute !important;
+    left: 0 !important;
+    right: auto !important;
+    transform: translateX(-20%) translateY(0) !important;
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    animation: megaMenuFadeIn 0.2s ease-in-out;
+  }
+
+  /* Prevent Bootstrap from resetting position on close */
+  .dropdown-categories .dropdown-menu.mega-menu-modern[style*="display: none"],
+  .dropdown-categories .dropdown-menu.mega-menu-modern:not(.open) {
+    position: absolute !important;
+    left: 0 !important;
+    right: auto !important;
+    transform: translateX(-20%) translateY(0) !important;
+  }
+
+  .mega-menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+
+  .mega-menu-modern .aspect-video {
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-radius: 6px;
+  }
+
+  .mega-menu-modern .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-8px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes megaMenuFadeIn {
+    from {
+      opacity: 0;
+      transform: translateX(-20%) translateY(-8px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(-20%) translateY(0);
+    }
+  }
+
+  /* Dropdown items */
+  .dropdown-item {
+    padding: 8px 12px;
+    color: rgba(255, 255, 255, 0.7);
+    transition: all 0.2s ease;
+    border-radius: 6px;
+  }
+
+  .dropdown-item:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+  }
+
+  /* Dropdown headers */
+  .dropdown-header {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 16px;
+  }
+
+  /* Icon styling in dropdowns */
+  .dropdown-item .icon,
+  .dropdown-item img.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+
+  /* Badge styling */
+  .badge-new {
+    display: inline-block;
+    padding: 2px 6px;
+    background: #ef4444;
+    color: white;
+    font-size: 10px;
+    font-weight: 600;
+    border-radius: 9999px;
+    margin-left: 8px;
+  }
+
+  /* Mobile menu icon bars */
+  .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: currentColor;
+    margin: 3px 0;
+    transition: all 0.3s ease;
+  }
+
+  /* Tooltip styling */
+  .tooltip-navbar {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 8px;
+    z-index: 1000;
+  }
+
+  /* Mobile Navigation Scrolling */
+  .navbar-mobile-collapse {
+    max-height: calc(100vh - 64px);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .navbar-mobile-collapse .container {
+    padding-bottom: 24px;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 1024px) {
+    .dropdown-menu {
+      min-width: 100%;
+      max-width: 100vw;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  @media (min-width: 991px) {
+    .navbar .dropdown-categories.dropdown-small .dropdown-menu {
+        width: 230px !important;
+      }
+  }
+    
+  /* Ensure dropdowns work with Bootstrap */
+  .dropdown.open .dropdown-menu {
+    display: block !important;
+  }
+
+  /* Prevent Bootstrap from resetting dropdown position */
+  .dropdown-categories {
+    position: relative;
+  }
+
+  /* Navbar Dropdown Toggle Button */
+  .navbar-dropdown-toggle {
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    font-weight: 500;
+    padding: 16px 0;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    transition: color 0.2s;
+    cursor: pointer;
+  }
+
+  .navbar-dropdown-toggle:hover {
+    color: white;
+  }
+
+  .navbar-dropdown-toggle .navbar-dropdown-icon {
+    font-size: 12px;
+    margin-left: 4px;
+    transition: transform 0.2s;
+  }
+
+  /* Navbar Link (common links like Marketplace, Blog, Pricing, Login) */
+  .navbar-link {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.2s;
+    display: inline-block;
+  }
+
+  .navbar-link:hover {
+    color: white;
+  }
+
+  /* Navbar Search Button */
+  .navbar-search-btn {
+    position: relative;
+    height: 32px;
+    min-width: 160px;
+    max-width: 224px;
+    justify-content: flex-start;
+    border-radius: 9999px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding-left: 10px;
+    padding-right: 48px;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.7);
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.2s;
+    background: transparent;
+    font-size: 14px;
+  }
+
+  .navbar-search-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+  }
+
+  /* Navbar Mobile Toggle Button */
+  .navbar-mobile-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    width: 32px;
+    color: rgba(255, 255, 255, 0.7);
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+
+  .navbar-mobile-toggle:hover {
+    color: white;
+  }
+
+  /* Navbar Mobile Link */
+  .navbar-mobile-link {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .navbar-mobile-link:hover {
+    color: white;
+  }
+
+  /* Add padding to dropdown buttons for better hover area */
+  .dropdown-categories .dropdown-toggle {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+  }
+
+  /* Smooth transitions */
+  .dropdown-toggle i.fa-angle-down {
+    transition: transform 0.2s ease;
+  }
+
+  .dropdown.open .dropdown-toggle i.fa-angle-down {
+    transform: rotate(180deg);
+  }
+    
+  .dropdown-menu.mega-menu-modern:before,
+  .dropdown-menu.dropdown-menu-navbar:before,
+  .dropdown-menu.mega-menu-modern:after,
+  .dropdown-menu.dropdown-menu-navbar:after {
+    display: none;
+  }
+
+  .dropdown-menu.dropdown-menu-navbar {
+    margin-top: -6px;
+  }
+ 
+</style>
+
+<script>
+  // Prevent Bootstrap from resetting mega menu dropdown position
+  (function() {
+    var megaMenus = document.querySelectorAll('.dropdown-categories .mega-menu-modern');
+    
+    function maintainPosition(menu) {
+      if (menu) {
+        // Force maintain position and transform
+        var currentTransform = menu.style.transform || '';
+        if (!currentTransform.includes('translateX(-20%)')) {
+          var currentY = currentTransform.match(/translateY\([^)]*\)/) ? currentTransform.match(/translateY\([^)]*\)/)[0] : 'translateY(0)';
+          menu.style.transform = 'translateX(-20%) ' + currentY;
+        }
+        menu.style.left = '0';
+        menu.style.right = 'auto';
+      }
+    }
+    
+    // Watch for dropdown events
+    document.addEventListener('DOMContentLoaded', function() {
+      megaMenus.forEach(function(menu) {
+        var dropdown = menu.closest('.dropdown-categories');
+        if (dropdown) {
+          // Maintain position when dropdown opens
+          $(dropdown).on('shown.bs.dropdown', function() {
+            maintainPosition(menu);
+          });
+          
+          // Maintain position when dropdown closes (before it disappears)
+          $(dropdown).on('hide.bs.dropdown', function() {
+            maintainPosition(menu);
+          });
+        }
+      });
+    });
+    
+    // Also run immediately if DOM is already loaded
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', arguments.callee);
+    } else {
+      setTimeout(function() {
+        megaMenus.forEach(maintainPosition);
+      }, 100);
+    }
+  })();
+</script>
+
+</nav>
+
+        <div class="container product-header-centered">
+            <div class="row d-flex-center text-center">
+                <div class="col-sm-12 col-md-6">
+                    <div class="product-image">
+                        <a href="https://demos.creative-tim.com/soft-ui-flowbite/" target="_blank">
+                            <img src="https://s3.amazonaws.com/creativetim_bucket/products/644/original/soft-ui-flowbite.jpg?1655456572" alt="Soft UI Flowbite Image" , loading="lazy"/>
+                            <link itemprop="image" href="https://s3.amazonaws.com/creativetim_bucket/products/644/original/soft-ui-flowbite.jpg?1655456572" />
+                        </a>
+                    </div>
+                    <div class="preview-area">
+                      	<a href="https://demos.creative-tim.com/soft-ui-flowbite/" target="_blank" class="hidden-xs btn btn-neutral btn-new btn-round">
+		Live Preview
+	</a>
+
+	<a href="https://demos.creative-tim.com/soft-ui-flowbite/" target="_blank" class="hidden-sm hidden-md hidden-lg btn  btn-neutral btn-new btn-round">
+		Live Preview
+	</a>
+
+                          <a href="https://www.creative-tim.com/learning-lab/flowbite/introduction/soft-ui-dashboard/" target="_blank" class="btn btn-neutral btn-new btn-fill  btn-round">
+                            Docs
+                          </a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+						<div class="pay-area">
+
+    <div class="text-center">
+         <a class="announcement border-gray-200 text-gray-800" href="https://www.creative-tim.com/club?ref=ct-info" target="_blank">
+  <span class="pill pill-black">Creative Tim Club</span>
+  <span class="message">🔥 Access to all our current and future products</span>
+  <span class="mr-6"><i class="fa fa-chevron-right"></i></span>
+</a>
+
+        <h1 itemprop="name" itemid class="product-name">Soft UI Flowbite</h1>
+        <h3 class="tagline">Free Tailwind CSS Admin Template</h3>
+		
+	    <div class="choose-license">
+            <p class="text-center"><i class="fa fa-balance-scale"></i> MIT License <a  class="btn btn-round btn-xs btn-neutral"
+                     href="https://github.com/timcreative/freebies/blob/master/LICENSE.md"
+                      rel="tooltip"
+                    title="Click and see more details."
+                   target="_blank">
+                    <i class=" fa fa-question"></i>
+                </a>
+            </p>
+
+        </div>
+
+
+        <div class="tab-content" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+            <meta itemprop="priceCurrency" content="USD" />
+            <meta itemprop="price" content="0.00" />
+                <button type="button" onclick="pricingMoveSmooth('#pricingCard')" class="btn btn-neutral btn-new btn-fill btn-round">Get All Access Pass</button>
+
+        </div>
+    </div>
+</div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-product-description section-white-gradient section-scaled" data-turbolinks="false">
+        <div class="container product">
+
+
+            <div class="row">
+
+                <div class="col-md-8">
+                    <div class="description text-left">
+                        <h3 class="sub-title">Free Tailwind CSS Admin Template</h3>
+                        <h4 class="legend">
+                          Product description
+                        </h4>
+
+                        <br>
+
+                        <span itemprop="description">
+                               <p>Build your website faster with an Innovative Admin Template based on TailwindCSS, Flowbite, and HTML. Soft UI Flowbite features a huge number of components built to fit together and look amazing.</p>
+
+<p>If you like the look &amp; feel of the hottest design trends right now, you will definitely fall in love with this dashboard. Its design is inspired by Soft UI Design and it gives you the flexibility that will get you going in no time.</p>
+
+<p>If you are looking to take your app to the next level – Soft UI Flowbite is the way to go.</p>
+
+<p><strong>Fully Coded Components</strong><br />
+Soft UI Flowbite is built with over 30 frontend individual elements, like buttons, inputs, navbars, nav tabs, cards, or alerts, giving you the freedom of choosing and combining. All components can take variations in color, which you can easily modify using TailwindCSS config and classes. You will save a lot of time going from prototyping to full-functional code because all elements are implemented.</p>
+
+<p>This Free Dashboard is coming with prebuilt design blocks, so the development process is seamless, switching from our pages to the real website is very easy to be done.</p>
+
+<p>View <a href="https://www.creative-tim.com/learning-lab/flowbite/alerts/soft-ui-dashboard/" target="_blank" rel="tooltip">all components here</a>.</p>
+
+<p><strong>Documentation built by Developers</strong><br />
+Each element is well presented in very complex documentation.
+You can read more about the <a href="https://www.creative-tim.com/learning-lab/flowbite/overview/soft-ui-dashboard/" target="_blank" rel="tooltip">documentation here</a>.</p>
+
+<p><strong>Example Pages</strong><br />
+If you want to get inspiration or just show something directly to your clients, you can jump-start your development with our 5 prebuilt example pages. You will be able to quickly set up the basic structure for your web project.</p>
+
+<p>View <a href="https://demos.creative-tim.com/soft-ui-flowbite/" target="_blank" rel="tooltip">example pages here</a>.</p>
+
+<p><strong>HELPFUL LINKS</strong></p>
+
+<ul>
+<li>View <a href="https://github.com/creativetimofficial/soft-ui-flowbite" target="_blank" rel="tooltip">Github Repository</a></li>
+<li>Check <a href="https://www.creative-tim.com/faq" target="_blank" rel="tooltip">FAQ Page</a></li>
+</ul>
+
+<h4>Special thanks</h4>
+
+<p>During the development of this dashboard, we have used many existing resources from awesome developers. We want to thank them for providing their tools open source:</p>
+
+<ul>
+<li><strong>Flowbite</strong> TailwindCSS components library.</li>
+<li><strong>Apex Charts</strong> - Modern &amp; Interactive Open-source Charts.</li>
+</ul>
+
+                        </span>
+                    </div>
+
+                    <h6 class="text-center">Product certified by: <span>Creative Tim</span>
+                      <div itemprop="brand" itemtype="https://schema.org/Brand" itemscope>
+                        <meta itemprop="name" content="Creative Tim" />
+                      </div>
+                    </h6>
+                </div>
+
+                <div class="col-md-4 text-center">
+                  <div class="product-details-container">
+                            <div class="technologies">
+                                    <div class="mask">
+                                        <img rel="tooltip" title="Fully Coded and Responsive HTML5" alt="Soft UI Flowbite - Fully Coded and Responsive HTML5" loading="lazy" src="/assets/icon-html-fbffeea849d7e6726178dd5ac4b998f14b1f2f6b12c8bf5a5af08acc99ffd85c.jpg" />
+                                    </div>
+                                    <div class="mask">
+                                        <img rel="tooltip" title="Fully Coded Tailwind" alt="Soft UI Flowbite - Fully Coded Tailwind" loading="lazy" src="/assets/icon-tailwind-b40c389d6a97c8188748a59729e41bde3e33b0d23ce98c3dabcbe74597de1a7c.jpg" />
+                                    </div>
+                                    <div class="mask">
+                                        <img rel="tooltip" title="Build websites faster with components on top of Tailwind CSS" alt="Soft UI Flowbite - Build websites faster with components on top of Tailwind CSS" loading="lazy" src="/assets/icon-flowbite-1306e084bdd2fcaf8a7649c5b20dd03e9b3713d831bfc1cf4ac7d7edbcd4a378.jpg" />
+                                    </div>
+                            </div>
+                                    <!-- Nav tabs -->
+                     <ul class="nav nav-tabs">
+                       <li class="active">
+                           <a class="btn btn-switch" href="#home" data-toggle="tab">
+                               <i class="icon-book"></i> Details
+                           </a>
+                       </li>
+                       <li><a class="btn btn-switch" href="#profile" data-toggle="tab">
+                           <i class="icon-info-sign"></i> Product Info
+                           </a>
+                       </li>
+
+                     </ul>
+
+                     <!-- Tab panes -->
+                     <div class="tab-content">
+                       <div class="tab-pane fade active in" id="home">
+
+                           <div class="product-flex">
+                             <div class="product-details">
+                               <i class="icon-cloud-download"></i>
+                               Downloads
+                             </div>
+                             <div class="small-info">
+
+                                 <h6 class="numbers">3,700</h6>
+
+                             </div>
+                           </div>
+                         
+                              <div class="product-flex">
+                                <div class="product-details">
+                                  <i class="icon-circle-arrow-up"></i>
+                                  Version
+                                </div>
+                                <div class="small-info">
+                                    <h6 class="numbers">
+                                        1.0.0
+                                    </h6>
+                                </div>
+                              </div>
+
+                               <div class="product-flex">
+                                <div class="product-details">
+                                  <i class="icon-list-ol"></i>
+                                  Changelog
+                                </div>
+                                <div class="small-info">
+                                    <h6 class="numbers">
+                                      <a href="https://github.com/creativetimofficial/soft-ui-flowbite/blob/main/CHANGELOG.md" target="_blank">
+                                        view
+                                      </a>
+                                    </h6>
+                                </div>
+                              </div>
+
+                           <div class="product-flex">
+                             <div class="product-details">
+                               <i class="icon-refresh"></i>
+                               Updated
+                             </div>
+                             <div class="small-info">
+                               <h6 class="numbers">3 years ago</h6>
+                             </div>
+                           </div>
+
+
+
+                           <div class="product-flex">
+                             <div class="product-details">
+                               <i class="icon-suitcase"></i>
+                               Released
+                             </div>
+                             <div class="small-info">
+                               <h6 class="numbers">3 years ago</h6>
+                             </div>
+                           </div>
+
+                           <div class="product-flex">
+                             <div class="product-details">
+                               <i class="icon-star-empty"></i>
+                               Reviews
+                             </div>
+                             <div class="small-info">
+                               <h6 class="numbers">No reviews yet</h6>
+                             </div>
+                           </div>
+
+                            <!-- Place this tag where you want the button to render. -->
+                            <a class="github-button" href="https://github.com/creativetimofficial/soft-ui-flowbite" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" data-show-count="true" aria-label="Star creativetimofficial/material-dashboard on GitHub">Star</a>
+                       </div>
+                       <div class="tab-pane fade" id="profile">
+                         <div class="product-flex">
+                           <div class="product-details">
+                             <i class="icon-th-large"></i>
+                             Handcrafted Elements
+                           </div>
+                           <div class="small-info">
+                             <h6 class="numbers">30</h6>
+                           </div>
+                         </div>
+
+                         <div class="product-flex">
+                           <div class="product-details">
+                             <i class="icon-gears"></i>
+                             Customized Plugins
+                           </div>
+                           <div class="small-info">
+                             <h6 class="numbers">2</h6>
+                           </div>
+                         </div>
+                          
+                         <div class="product-flex">
+                           <div class="product-details">
+                             <i class="icon-picture"></i>
+                             Example Pages
+                           </div>
+                           <div class="small-info">
+                             <h6 class="numbers">5</h6>
+                           </div>
+                         </div>
+
+                         <div class="product-flex">
+                           <div class="product-details">
+                             <i class="icon-medkit"></i>
+                             Community Support
+                           </div>
+                         </div>
+
+                         <div class="product-flex">
+                           <div class="product-details">
+                             <i class="icon-file-text-alt"></i>
+                             Documentation
+                           </div>
+                         </div>
+
+                         <div class="product-flex">
+                           <div class="product-details">
+                             <i class="icon-mobile-phone"></i>
+                             Fully Responsive
+                           </div>
+                         </div>
+
+                        </div>
+                       </div>
+                  </div>
+                </div>
+
+            </div>
+            <div class="row">
+                  <div class="col-md-12">
+                    <div class="pricing-main-title text-center" id="pricingCard">
+                      <h3>Trusted by <b>2,794,128</b> developers and these companies</h3>
+                    </div>
+
+                    <div class="media-logos media-logos-product">
+                      <a href="javascript:;">
+                        <img alt="No image" loading="lazy" src="/assets/logo_amazon-d71c7073b6bff6ebc7d263c44b8e9890d001103ba12e23d11a203faec45d7526.png" />
+                      </a>
+                      <a href="javascript:;">
+                        <img alt="No image" loading="lazy" src="/assets/logo_IBM-38fa66ff0e392776589fadfc7aac18d45f7a14393fa59adaa3ff1fca7ccdc7fa.png" />
+                      </a>
+                      <a href="javascript:;">
+                        <img alt="No image" loading="lazy" src="/assets/logo_microsoft-7bf1b0a5ce4187fb37c54296aa5d4565f0b5fb4b2a6cd277522b38da0110cc31.png" />
+                      </a>
+                      <a href="javascript:;">
+                        <img alt="No image" loading="lazy" src="/assets/logo_samsung-f015cb3da92edd7895bd73492572dd0060a8d669822bceb93cebd319a5096cde.png" />
+                      </a>
+                      <a href="javascript:;">
+                        <img alt="No image" loading="lazy" src="/assets/logo_vodafone-940a54dcc87255c62b44fe127dd99c0188f7cc00c0aed28892beb55779f55479.png" />
+                      </a>
+                    </div>
+                      
+<script>
+  window.PRICING_PLANS = {"basic":{"name":"Basic Access Pass","label":"Basic","monthly":29,"yearly":199,"paddle_monthly_id":"pri_01kfbaaryqthk9ve9kyv8tt961","paddle_yearly_id":"pri_01kfbacbkaxnttaqsy4xy8qak8","features":["Creative Tim UI - shadcn/ui Blocks","Material Tailwind PRO","David UI PRO","Creative Tim Club (130+ Templates)","Roots of UI/UX Design Book PDF","Product Updates","Community Access"]},"pro":{"name":"PRO Access Pass","label":"PRO","monthly":49,"yearly":349,"paddle_monthly_id":"pri_01kfbae5jccbb1b7tmeh26ywzf","paddle_yearly_id":"pri_01kfbaf872g04dc598e9vc6q4x","features":["Everything in Basic Access Pass","3 OpenClaw agents (2 VMs, 2GB RAM, 20GB storage each)","Unlimited custom support agents","Unlimited knowledge base data","500 lead generation","10+ AI employees for business growth","200+ n8n Automation Templates","Creative AI Pixels","Priority Support"]},"business":{"name":"Business Access Pass","label":"Business","monthly":89,"yearly":599,"paddle_monthly_id":"pri_01khewjk1k4q3twwwd6r31mws3","paddle_yearly_id":"pri_01khexg0r7eyqj4vgmb73vmtj6","features":["Everything in PRO Access Pass","10 OpenClaw agents (2 VMs, 2GB RAM, 50GB storage each)","Unlimited custom support agents","Unlimited knowledge base data","500 lead generation","10+ AI employees for business growth","200+ n8n Automation Templates","Creative AI Pixels","Priority Support"]}};
+</script>
+
+<script src="https://cdn.paddle.com/paddle/v2/paddle.js"></script>
+<script type="text/javascript">
+  try {
+    Paddle.Environment.set( "production" );
+    Paddle.Initialize({ token: "live_8675c7d7133ea566e2e803d30a9" });
+  } catch(e) { console.warn('Paddle v2 init failed', e); }
+</script>
+
+<section class="pricing-section pricing-all-access-pass container" style="padding:40px;">
+  <div class="text-center" style="margin-bottom:22px;">
+    <h2 class="title">Unlock the Full Power of the Creative Tim Ecosystem</h2>
+    <p class="muted">One subscription to design pixel-perfect UIs, automate with AI, and scale your delivery.</p>
+    <div class="shadnui-tabs" role="tablist" aria-label="Billing frequency" style="margin-top:14px; display:inline-flex;">
+      <label class="btn btn-default shadnui-tab active" data-billing="monthly" role="tab" aria-selected="true">
+        <input type="radio" name="billing" autocomplete="off" checked style="display:none;"> Monthly
+      </label>
+      <label class="btn btn-default shadnui-tab" data-billing="yearly" role="tab" aria-selected="false">
+        <input type="radio" name="billing" autocomplete="off" style="display:none;"> Yearly <small class="billing-note" style="font-weight:600;">(Save 43%)</small>
+      </label>
+    </div>
+  </div>
+
+  <div class="row pricing-cards">
+    <!-- Basic Access Pass -->
+    <div class="col-md-4 col-xs-12" style="margin-bottom:20px;">
+      <div class="pricing-card shadnui-card" style="min-height:320px;">
+        <span class="badge badge-dark plan-badge">Basic</span>
+        <h3 class="panel-title card-title text-center">Basic Access Pass</h3>
+
+        <div class="pricing-display" style="margin-bottom:12px;">
+          <div class="price-secondary yearly-equivalent text-muted" style="font-size:12px; margin-top:6px; display:none;">Billed $199 /yr (43% discount)</div>
+          <div class="panel-price" style="margin-bottom:4px;">
+            <div class="price-main" data-monthly="29" data-yearly="199">$29</div>
+            <div class="price-period"><small class="text-muted"><span class="billing-suffix">/mo</span></small></div>
+          </div>
+          <div class="price-or-yearly text-muted" style="font-size:12px;">or $199/year (save 43%)</div>
+        </div>
+
+        <ul class="pricing-features list-unstyled features" style="margin-bottom:18px;">
+            <li><i class="fa fa-check text-success" aria-hidden="true"></i>Creative Tim UI - shadcn/ui Blocks</li>
+            <li><i class="fa fa-check text-success" aria-hidden="true"></i>Material Tailwind PRO</li>
+            <li><i class="fa fa-check text-success" aria-hidden="true"></i>David UI PRO</li>
+            <li><i class="fa fa-check text-success" aria-hidden="true"></i>Creative Tim Club (130+ Templates)</li>
+            <li><i class="fa fa-check text-success" aria-hidden="true"></i>Roots of UI/UX Design Book PDF</li>
+            <li><i class="fa fa-check text-success" aria-hidden="true"></i>Product Updates</li>
+            <li><i class="fa fa-check text-success" aria-hidden="true"></i>Community Access</li>
+        </ul>
+
+        <div class="text-center">
+          <a href="#"
+             class="paddle_button btn btn-primary btn-outline btn-round"
+             data-items='[ { "priceId": "pri_01kfbaaryqthk9ve9kyv8tt961", "quantity": 1 } ]'
+             data-passthrough='{&quot;product_type&quot;:&quot;basic&quot;,&quot;product_form&quot;:&quot;product&quot;,&quot;billing&quot;:&quot;monthly&quot;}'>
+            Get Started
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRO Access Pass (featured) -->
+    <div class="col-md-4 col-xs-12" style="margin-bottom:20px;">
+      <div class="pricing-card featured shadnui-card-accent" style="min-height:320px; position:relative;">
+        <span class="badge badge-dark plan-badge">PRO</span>
+        <span class="badge badge-orange plan-badge-popular">Popular</span>
+
+        <h3 class="panel-title card-title text-center">PRO Access Pass</h3>
+
+        <div class="pricing-display" style="margin-bottom:12px;">
+          <div class="price-secondary yearly-equivalent text-muted" style="font-size:12px; margin-top:6px; display:none;">Billed $349 /yr (43% discount)</div>
+          <div class="panel-price" style="margin-bottom:4px;">
+            <div class="price-main" data-monthly="49" data-yearly="349">$49</div>
+            <div class="price-period"><small class="text-muted"><span class="billing-suffix">/mo</span></small></div>
+          </div>
+          <div class="price-or-yearly text-muted" style="font-size:12px;">or $349/year (save 43%)</div>
+        </div>
+
+        <ul class="pricing-features list-unstyled features" style="margin-bottom:18px;">
+            <li><i class="fa fa-check text-success" aria-hidden="true"></i>Everything in Basic Access Pass</li>
+            <li><i class="fa fa-check text-success" aria-hidden="true"></i>3 OpenClaw agents (2 VMs, 2GB RAM, 20GB storage each)</li>
+            <li><i class="fa fa-check text-success" aria-hidden="true"></i>Unlimited custom support agents</li>
+            <li><i class="fa fa-check text-success" aria-hidden="true"></i>Unlimited knowledge base data</li>
+            <li><i class="fa fa-check text-success" aria-hidden="true"></i>500 lead generation</li>
+            <li><i class="fa fa-check text-success" aria-hidden="true"></i>10+ AI employees for business growth</li>
+            <li><i class="fa fa-check text-success" aria-hidden="true"></i>200+ n8n Automation Templates</li>
+            <li><i class="fa fa-check text-success" aria-hidden="true"></i>Creative AI Pixels</li>
+            <li><i class="fa fa-check text-success" aria-hidden="true"></i>Priority Support</li>
+        </ul>
+
+        <div class="text-center">
+          <a href="#"
+             class="paddle_button btn btn-black btn-fill btn-round"
+             data-items='[ { "priceId": "pri_01kfbae5jccbb1b7tmeh26ywzf", "quantity": 1 } ]'
+             data-passthrough='{&quot;product_type&quot;:&quot;pro&quot;,&quot;product_form&quot;:&quot;product&quot;,&quot;billing&quot;:&quot;monthly&quot;}'>
+            Get Started
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Business Access Pass -->
+    <div class="col-md-4 col-xs-12" style="margin-bottom:20px;">
+      <div class="pricing-card shadnui-card" style="min-height:320px;">
+        <span class="badge badge-dark plan-badge">Business</span>
+        <h3 class="panel-title card-title text-center">Business Access Pass</h3>
+
+        <div class="pricing-display" style="margin-bottom:12px;">
+          <div class="price-secondary yearly-equivalent text-muted" style="font-size:12px; margin-top:6px; display:none;">Billed $599 /yr (43% discount)</div>
+          <div class="panel-price" style="margin-bottom:4px;">
+            <div class="price-main" data-monthly="89" data-yearly="599">$89</div>
+            <div class="price-period"><small class="text-muted"><span class="billing-suffix">/mo</span></small></div>
+          </div>
+          <div class="price-or-yearly text-muted" style="font-size:12px;">or $599/year (save 43%)</div>
+        </div>
+
+        <ul class="pricing-features list-unstyled features" style="margin-bottom:18px;">
+            <li><i class="fa fa-check text-success" aria-hidden="true"></i>Everything in PRO Access Pass</li>
+            <li><i class="fa fa-check text-success" aria-hidden="true"></i>10 OpenClaw agents (2 VMs, 2GB RAM, 50GB storage each)</li>
+            <li><i class="fa fa-check text-success" aria-hidden="true"></i>Unlimited custom support agents</li>
+            <li><i class="fa fa-check text-success" aria-hidden="true"></i>Unlimited knowledge base data</li>
+            <li><i class="fa fa-check text-success" aria-hidden="true"></i>500 lead generation</li>
+            <li><i class="fa fa-check text-success" aria-hidden="true"></i>10+ AI employees for business growth</li>
+            <li><i class="fa fa-check text-success" aria-hidden="true"></i>200+ n8n Automation Templates</li>
+            <li><i class="fa fa-check text-success" aria-hidden="true"></i>Creative AI Pixels</li>
+            <li><i class="fa fa-check text-success" aria-hidden="true"></i>Priority Support</li>
+        </ul>
+
+        <div class="text-center">
+          <a href="#"
+             class="paddle_button btn btn-primary btn-outline btn-round"
+             data-items='[ { "priceId": "pri_01khewjk1k4q3twwwd6r31mws3", "quantity": 1 } ]'
+             data-passthrough='{&quot;product_type&quot;:&quot;business&quot;,&quot;product_form&quot;:&quot;product&quot;,&quot;billing&quot;:&quot;monthly&quot;}'>
+            Get Started
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row mt-4">
+    <div class="col-12 text-center text-muted">
+      <p>
+        <i class="fa fa-lock" aria-hidden="true"></i> Secured Payment by <b>Paddle</b>.
+        Accepted: <i class="fa fa-cc-paypal"></i> <i class="fa fa-cc-visa"></i> <i class="fa fa-cc-mastercard"></i>
+      </p>
+      <p class="small">If you are a registered company inside the EU you can add your VAT ID during checkout.</p>
+    </div>
+  </div>
+
+  <style>
+    .pricing-section .title { font-weight:700; margin-bottom:6px; }
+    .pricing-section .muted { color: #6b7280; }
+
+    .shadnui-tabs{ position:relative; background: rgba(0,0,0,0.03); border-radius:999px; padding:6px; border:1px solid rgba(11,15,22,0.04); display:inline-flex; }
+    .shadnui-tab{ position:relative; z-index:2; border-radius:999px; padding:8px 18px; margin:0 4px; cursor:pointer; border:none; background:transparent; color:#6b7280; font-weight:700; transition: all .12s ease; }
+    .shadnui-tab.active{ background: #000; color: #fff; box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
+
+    .pricing-cards{ margin-top: 18px; }
+    .pricing-card { background: #fff; border-radius: 16px; padding: 28px; margin-top: 20px; box-shadow: 0 20px 40px rgba(0,0,0,.06); position: relative; min-height: 420px; }
+    .pricing-card.featured { background: linear-gradient(180deg,#f7f5ff,#ffffff); border: 1px solid #efeaff; }
+
+    .plan-badge { position: absolute; top: 18px; left: 18px; padding: 6px 12px; border-radius: 20px; font-size: 12px; }
+    .plan-badge-popular { position: absolute; top: 18px; right: 18px; left: auto; padding: 6px 12px; border-radius: 20px; font-size: 12px; background: #ffedd5; color: #c2410c; }
+    .badge-dark{ background: #111; color:#fff; }
+    .badge-orange{ background: #ffedd5; color:#c2410c; }
+
+    .panel-title.card-title{ font-size:20px; font-weight:800; margin-top: 36px; margin-bottom:12px; }
+    .pricing-features li .fa{ margin-right: 6px; }
+
+    .panel-price{ display:flex; align-items:baseline; justify-content:center; gap:6px; }
+    .price-main{ font-size:36px; font-weight:800; }
+    .price-period small{ font-size:14px; color:#6b7280; }
+    .yearly-equivalent{ color:#6b7280; font-size:12px; margin-bottom:8px; }
+    .price-or-yearly{ text-align:center; margin-top:4px; }
+
+    .features{ list-style:none; padding:0; margin:18px 0; }
+    .features li{ padding-left:28px; margin-bottom:12px; position:relative; color:#374151; }
+    .features li:before{ position:absolute; left:0; right:4px; color:#16a34a; font-weight:700; }
+
+    @media (max-width:767px){
+      .price-main{ font-size:28px; }
+      .plan-badge{ position:static; display:inline-block; margin-bottom:10px; }
+      .plan-badge-popular{ position:static; display:inline-block; margin-bottom:10px; margin-left:6px; }
+    }
+  </style>
+
+  <script>
+    (function(){
+      function forEachNode(list, fn){ for(var i=0;i<list.length;i++){ fn(list[i], i); } }
+
+      var billingButtons = document.querySelectorAll('.pricing-all-access-pass [data-billing]');
+
+      function setBilling(mode){
+        var cards = document.querySelectorAll('.pricing-all-access-pass .pricing-card');
+        forEachNode(cards, function(panel){
+          var mainEl  = panel.querySelector('.price-main');
+          var secEl   = panel.querySelector('.price-secondary');
+          var orEl    = panel.querySelector('.price-or-yearly');
+          var monthly = mainEl ? (parseFloat(mainEl.getAttribute('data-monthly')) || 0) : 0;
+          var yearly  = mainEl ? (parseFloat(mainEl.getAttribute('data-yearly'))  || 0) : 0;
+
+          if(mode === 'monthly'){
+            if(mainEl){ mainEl.textContent = '$' + monthly; }
+            if(secEl) { secEl.style.display = 'none'; }
+            if(orEl)  { orEl.style.display = 'block'; }
+            panel.classList.remove('billing-yearly');
+          } else {
+            var monthlyEq = yearly ? (yearly / 12) : 0;
+            if(mainEl){ mainEl.textContent = '$' + monthlyEq.toFixed(2); }
+            if(secEl) { secEl.style.display = 'block'; }
+            if(orEl)  { orEl.style.display = 'none'; }
+            panel.classList.add('billing-yearly');
+          }
+        });
+      }
+
+      function updatePaddleButtons(mode){
+        var buttons = document.querySelectorAll('.pricing-all-access-pass .paddle_button');
+        forEachNode(buttons, function(el){
+          var productType = null;
+          try{
+            var pt = el.getAttribute('data-passthrough');
+            productType = pt ? JSON.parse(pt)['product_type'] : null;
+          } catch(e){ }
+
+          var priceId = null;
+          try{
+            var plans = window.PRICING_PLANS || {};
+            if(productType && plans[productType]){
+              var plan = plans[productType];
+              priceId = (mode === 'yearly') ? plan['paddle_yearly_id'] : plan['paddle_monthly_id'];
+            }
+          } catch(e){ console.warn('pricing plans parse error', e); }
+
+          if(priceId){
+            el.setAttribute('data-items', JSON.stringify([{ priceId: priceId, quantity: 1 }]));
+          }
+
+          try{
+            var passthrough = el.getAttribute('data-passthrough') ? JSON.parse(el.getAttribute('data-passthrough')) : {};
+            passthrough.billing = mode;
+            el.setAttribute('data-passthrough', JSON.stringify(passthrough));
+          } catch(e){ }
+        });
+      }
+
+      forEachNode(billingButtons, function(btn){
+        btn.addEventListener('click', function(){
+          forEachNode(billingButtons, function(b){ b.classList.remove('active'); });
+          btn.classList.add('active');
+          var mode = btn.getAttribute('data-billing');
+          setBilling(mode);
+          updatePaddleButtons(mode);
+        });
+      });
+
+      // Init with active tab
+      var active = document.querySelector('.pricing-all-access-pass [data-billing].active');
+      if(active){
+        setBilling(active.getAttribute('data-billing'));
+        updatePaddleButtons(active.getAttribute('data-billing'));
+      }
+    })();
+  </script>
+
+</section>
+
+                      <div class="row mb-50 panel-text-color-dark">
+  <div class="col-md-12 text-center">
+    <h3 class="mb-50 faq-title">Frequently asked questions</h3>
+  </div>
+  <div class="col-md-6">
+    <div class="panel-group" id="accordion1" role="tablist" aria-multiselectable="true">
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingOne">
+          <h4 class="panel-title">
+            <a class="collapsed desc-section-title" role="button" data-toggle="collapse" data-parent="#accordion1" href="#1" aria-expanded="true" aria-controls="1">
+              <div class="">
+                What does "Use in Saas" refer to?
+              </div>
+              <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </a>
+          </h4>
+        </div>
+        <div id="1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+          <div class="panel-body">
+            You can use our products to create an application where the end user is charged with a monthly/annually subscription plan (SaaS - Software as a Service). 
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingOne">
+          <h4 class="panel-title">
+            <a class="desc-section-title" role="button" data-toggle="collapse" data-parent="#accordion1" href="#2" aria-expanded="false" aria-controls="2">
+              <div class="">
+                What are the differences between the licenses on the website?
+              </div>
+
+              <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </a>
+          </h4>
+        </div>
+        <div id="2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+          <div class="panel-body">
+            The Freelancer license is aimed at people who work on their own. It grants you the right to use the purchased product <strong>only for one project</strong> (either yours or for a client). This license is not compatible with SaaS-based projects.
+            <br><br>
+
+            The Startup license is aimed at smaller teams. It grants you and your team (up to 5 people) the right to use the purchased product only for one project (either yours or for a client). This license is not compatible with SaaS-based projects.
+            <br><br>
+
+            The Company license is aimed at agencies or larger teams. It grants you the right to create other licensed products base on the template that you purchase form us. This license it's compatible with SaaS-based projects.
+            <br><br>
+
+            The Enterprise license is aimed at large companies with multiple projects. It grants you the right to create <strong>any kind of software, SaaS, digital products and sell them</strong>. For restrictions, please check <a href="https://www.creative-tim.com/knowledge-center/is-there-any-type-of-restriction-regarding-the-enterprise-license/">here</a>
+            <br><br>
+
+            Also, the differences between our 3 types of Licenses is given by the <a href="https://www.creative-tim.com/knowledge-center/what-does-tech-support-include/">Tech Support</a> / <a href="https://www.creative-tim.com/knowledge-center/what-do-free-updates-mean/">Free Updates</a> availability and <a href="https://www.creative-tim.com/knowledge-center/how-many-developers-can-access-the-product/">Team Size</a>.
+            <br><br>
+
+            More info <a href="https://www.creative-tim.com/license">here</a>.
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+          <h4 class="panel-title">
+            <a class="desc-section-title" role="button" data-toggle="collapse" data-parent="#accordion1" href="#3" aria-expanded="false" aria-controls="3">
+              <div class="">
+                What is the difference between a Free and a Pro product?
+              </div>
+
+              <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </a>
+          </h4>
+        </div>
+        <div id="3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="panel-body">
+            The differences between the Free and Pro products consists of the number of components, plugins, sections, pages in each.
+            <br><br>
+
+            More info <a href="https://www.creative-tim.com/knowledge-center/what-is-the-difference-between-a-free-and-a-pro-product/">here</a>.
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingFour">
+          <h4 class="panel-title">
+            <a class="desc-section-title" role="button" data-toggle="collapse" data-parent="#accordion1" href="#4" aria-expanded="false" aria-controls="4">
+              <div class="">
+                How can I upgrade my license?
+              </div>
+
+              <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </a>
+          </h4>
+        </div>
+        <div id="4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+          <div class="panel-body">
+            You can upgrade from one license plan to the next one whenever you want simply by paying the cost difference. You only have to send us <strong>an email in which you specify the product that you have and the Order ID</strong>. We will give you an unique coupon for the upgrade.
+            <br><br>
+
+            More info <a href="https://www.creative-tim.com/knowledge-center/how-can-i-upgrade-my-license/">here</a>.
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingSeventh">
+          <h4 class="panel-title">
+            <a class="desc-section-title" role="button" data-toggle="collapse" data-parent="#accordion1" href="#5" aria-expanded="false" aria-controls="5">
+              <div class="">
+                Can I use a premium product in an open source project?
+              </div>
+
+              <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </a>
+          </h4>
+        </div>
+        <div id="5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeventh">
+          <div class="panel-body">
+            Yes, of course! You can use the PRO product for an open source project if you add in the Readme file (on github) or in the description of your product that you built the project using “X product from Creative Tim” and a link to the product page.
+            <br><br>
+
+            More info <a href="https://www.creative-tim.com/knowledge-center/can-i-use-a-premium-product-in-an-open-source-project/">here</a>.
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingSeventh">
+          <h4 class="panel-title">
+            <a class="desc-section-title" role="button" data-toggle="collapse" data-parent="#accordion1" href="#6" aria-expanded="false" aria-controls="6">
+              <div class="">
+                Is there any type of restriction regarding the Enterprise License?
+              </div>
+
+              <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </a>
+          </h4>
+        </div>
+        <div id="6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeventh">
+          <div class="panel-body">
+            You don't have any restrictions using the Enterprise License; you just cannot create products or businesses that are in direct competition to us using our products:
+            <br><br>
+
+            <ul>
+              <li>You can’t re-distribute the Item as stock, in a tool or template, or with source files. You can’t do this with an Item either on its own or bundled with other items. You can’t re-distribute or make available the Item as-is or with superficial modifications. <i>For example: You can’t license an item and then make it available as-is on your website for your users to download</i>.</li>
+              <br>
+              <li>You can’t use the Item in any application allowing an end-user to customize a digital or physical product to their specific needs, such as an “on-demand”, “made to order” or “build it yourself” application. You can use the Item in this way only if you purchase a separate License for each final product incorporating the Item that is created using the application. <i>For example: you can't create a website builder</i>.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+          <h4 class="panel-title">
+            <a class="desc-section-title" role="button" data-toggle="collapse" data-parent="#accordion2" href="#19" aria-expanded="false" aria-controls="collapseThree">
+              <div class="">
+                What does the number of "Projects" refer to?
+              </div>
+
+              <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </a>
+          </h4>
+        </div>
+        <div id="19" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="panel-body">
+            Depending on the License you purchase, you can use our products to either code a website/web application for you, for a client, or for multiple clients, which will be hosted on one or multiple domains:
+            <br><br>
+
+            <ul>
+              <li>For example, if you purchased the Freelancer License or Startup License, you can create only one website (for you or a client). Same, if you have multiple subdomains, like "test.yoursite.com" or "dev.yoursite.com", you can use the Freelancer License or Startup License.</li>
+              <br>
+              <li>If you want to create multiple websites, you will need a bigger License (like Company or Enterprise). Same, if you have a complex application like a SaaS and have "client1.yoursite.com" and "client2.yoursite.com" and "clientx.yoursite.com", you will need a multi-domain License like Company or Enterprise.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+          <h4 class="panel-title">
+            <a class="desc-section-title" role="button" data-toggle="collapse" data-parent="#accordion2" href="#12" aria-expanded="false" aria-controls="collapseThree">
+              <div class="">
+                How many Developers can access the product?
+              </div>
+
+              <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </a>
+          </h4>
+        </div>
+        <div id="12" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="panel-body">
+            Depending on the License type you purchased, one or more developers (from your team, for example) can access the product:
+            <br><br>
+
+            <ul>
+              <li>If you purchased the Freelancer License, only you (one developer) can use the product.</li>
+              <br>
+              <li>If you purchased the Startup License, up to 5 developers (including you) can use the product.</li>
+              <br>
+              <li>If you purchased the Company License, up to 20 developers (including you) can access the product.</li>
+              <br>
+              <li>If you purchased the Enterprise License, you can work with a bigger team - more than 20 developers can access the product.</li>
+            </ul>
+
+            <a href="https://www.creative-tim.com/knowledge-center/how-can-i-invite-team-members-to-access-a-product/">Here are the steps to give product access to your team members</a>.
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+          <h4 class="panel-title">
+            <a class="desc-section-title" role="button" data-toggle="collapse" data-parent="#accordion2" href="#13" aria-expanded="false" aria-controls="collapseThree">
+              <div class="">
+                What does the "Documentation" refer to?
+              </div>
+
+              <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </a>
+          </h4>
+        </div>
+        <div id="13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="panel-body">
+            It consists of the product technical manuals like getting started, build tools, and it also describes every component with code examples.
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+          <h4 class="panel-title">
+            <a class="desc-section-title" role="button" data-toggle="collapse" data-parent="#accordion2" href="#14" aria-expanded="false" aria-controls="collapseThree">
+              <div class="">
+                What does the "Fully Coded" refer to?
+              </div>
+
+              <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </a>
+          </h4>
+        </div>
+        <div id="14" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="panel-body">
+            It means that you receive access to the entire code for HTML, JS, and SCSS files depending on the different packages of each product.
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+          <h4 class="panel-title">
+            <a class="desc-section-title" role="button" data-toggle="collapse" data-parent="#accordion2" href="#15" aria-expanded="false" aria-controls="collapseThree">
+              <div class="">
+                What does "Tech Support" include?
+              </div>
+              <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </a>
+          </h4>
+        </div>
+        <div id="15" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="panel-body">
+            When you buy our products you have access to our Support Team so  you can submit any ticket to us regarding product functionalities and bug fixes (learning and tutorials related requests are not included). You will get responses directly from the product’s creators in 24 hours for regular  <strong>Support</strong>  and in a couple of hours for <strong>Priority Support</strong> (during business days).
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+          <h4 class="panel-title">
+            <a class="desc-section-title" role="button" data-toggle="collapse" data-parent="#accordion2" href="#16" aria-expanded="false" aria-controls="collapseThree">
+              <div class="">
+                What do "Free Updates" mean?
+              </div>
+
+              <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </a>
+          </h4>
+        </div>
+        <div id="16" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="panel-body">
+            Depending on your license type, you have a determined period when you receive product updates that include <strong>bug fixes and new features</strong>.
+            <br><br>
+
+            More info <a href="https://www.creative-tim.com/knowledge-center/what-do-free-updates-mean/">here</a>.
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+          <h4 class="panel-title">
+            <a class="desc-section-title" role="button" data-toggle="collapse" data-parent="#accordion2" href="#17" aria-expanded="false" aria-controls="collapseThree">
+              <div class="">
+                If I bought a Company Bundle, but I want an Enterprise Bundle instead, what can I do?
+              </div>
+
+              <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </a>
+          </h4>
+        </div>
+        <div id="17" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="panel-body">
+            Please send us an email at <a href="https://www.creative-tim.com/contact-us" target="_blank"><span class="__cf_email__" data-cfemail="8af9fffafae5f8fecae9f8efebfee3fcefa7fee3e7a4e9e5e7">[email&#160;protected]</span></a>. We will send you an upgrade coupon for your desired Bundle, and you will only pay the price difference.
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+          <h4 class="panel-title">
+            <a class="desc-section-title" role="button" data-toggle="collapse" data-parent="#accordion2" href="#20" aria-expanded="false" aria-controls="collapseThree">
+              <div class="">
+                Can I transfer my License from a company to another one?
+              </div>
+
+              <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </a>
+          </h4>
+        </div>
+        <div id="20" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="panel-body">
+            Yes, you can. It is available for all Licenses type as long as the <strong>support</strong> included in the License is still valid.
+            <br><br>
+
+            More info <a href="https://www.creative-tim.com/knowledge-center/can-i-transfer-my-license-from-a-company-to-another-one/">here</a>.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+                  </div>
+                </div>
+
+            
+        </div>
+    </div>
+
+
+    <div class="main main-dark section-creators">
+        <div class="container">
+            <div class="creators">
+               <div class="row">
+
+    <div class="col-md-8 col-md-offset-2">
+        <div class="creators collaborators-card">
+
+            <h2 class="legend text-center">We are here to help you!</h2>
+
+            <div class="collaborators" data-turbolinks="false">
+
+              <div class="btn-area text-center">
+
+                <div>
+                    <a target="_blank" class="btn btn-default btn-round" href="https://github.com/creativetimofficial/soft-ui-flowbite">
+                      <i class="fa fa-github-alt"></i> Github
+</a>                    <a target="_blank" class="btn btn-default btn-round" href="https://www.creative-tim.com/learning-lab/flowbite/introduction/soft-ui-dashboard/">
+                      <i class="fa fa-book"></i> Docs
+</a>
+                  <a target="_blank" class="btn btn-default btn-round" href="https://www.creative-tim.com/knowledge-center">
+                    <i class=" fa fa-question-circle"></i> Knowledge Center
+</a>                </div>
+
+                <div class="mt-10">
+                  <a target="_blank" class="btn btn-default btn-round" href="https://www.creative-tim.com/services/updivision?ref=ct-product-page">
+                    <i class=" fa fa-code"></i> Custom Development
+</a>
+                  <a target="_blank" class="btn btn-default btn-round" href="https://discord.com/invite/FhCJCaHdQa">
+                    <i class="fa fa-comments" aria-hidden="true"></i> Discord Server
+</a>                </div>
+
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                <div class="row">
+    <div class="col-md-8 col-md-offset-2 text-center">
+        <div class="sharing-area">
+            <div class="big-icon">
+                <i class="icon-comments"></i>
+            </div>
+            <h2 class="legend text-center">Sharing is caring!</h2>
+
+            <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.creative-tim.com/product/soft-ui-flowbite?src=sdkpreparse" class="fb-xfbml-parse-ignore btn btn-new btn-wd btn-social btn-facebook btn-fill btn-round" onclick="shareFacebookWithCallBack()">
+                <i class="fa fa-facebook-square"></i> Facebook
+            </a>
+            <a href="https://twitter.com/intent/tweet?url=https://www.creative-tim.com/product/soft-ui-flowbite&text=Checkout this awesome product for web developers&via=creativetim" class="btn btn-new btn-wd btn-social btn-twitter btn-fill btn-round">
+                <i class="fa fa-twitter"></i> Twitter
+            </a>
+             <a href="/cdn-cgi/l/email-protection#f6c98583949c939582cbb59e93959d998382d6829e9f85d09499928fcbbe9fdabfd69099839892d6829e9f85d6979892d6829e9983919e82d68f9983d69b9f919e82d69a9f9d93d69f82d69e82828685ccd9d9818181d895849397829f8093db829f9bd895999bd986849992839582d985999082db839fdb909a9981949f8293" class="btn btn-new btn-wd btn-social btn-neutral btn-email btn-fill btn-round">
+                <i class="fa fa-paper-plane"></i> Email
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="main-white">
+        <div class="container">
+            <ol itemscope itemtype="https://schema.org/BreadcrumbList" class="breadcrumb">
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" >
+            <a itemprop="item" href="https://www.creative-tim.com/">
+              <span itemprop="name">Home</span>
+            </a>
+
+            <meta itemprop="position" content="1" />
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" >
+            <a itemprop="item" href="https://www.creative-tim.com/templates">
+              <span itemprop="name">All Templates</span>
+            </a>
+
+            <meta itemprop="position" content="2" />
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class=active>
+            <a itemprop="item" href="https://www.creative-tim.com/product/soft-ui-flowbite">
+              <span itemprop="name">Soft UI Flowbite</span>
+            </a>
+
+            <meta itemprop="position" content="3" />
+        </li>
+</ol>
+
+        </div>
+    </div>
+
+
+  
+<div class="modal fade bs-example-modal-lg get-started-modal" id="get-started-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <div class="modal-container">
+          <h4 class="header-title">Choose the downloads method</h4>
+          <div class="row">
+            <div class="col-md-2 col-sm-4 col-xs-12"></div>
+            <div class="col-md-2 col-sm-4 col-xs-12">
+              
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-12">
+                <a target="_blank" href="https://github.com/creativetimofficial/soft-ui-flowbite/fork" >
+                  <div  class="card" rel="tooltip" title="Fork this repo into your Github">
+                      <i class="fa fa-code-fork"></i>
+                      <h4>Fork on <br> Github</h4>
+                  </div>
+                </a>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-12">
+              <a onclick="downloadFreebie('Soft UI Flowbite','soft-ui-flowbite')" href="#">
+                <div class="card" rel="tooltip" title="Direct download product zip">
+                    <i class="fa fa-download"></i>
+                    <h4>Zip <br> Download</h4>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-body text-center">
+        <!-- <div class="social-area" itemscope="" itemtype="https://schema.org/LocalBusiness">  <a itemprop="sameAs" href="https://www.facebook.com/CreativeTim" class="btn btn-default btn-social btn-round" target="_blank"><i class="fa fa-facebook-square"></i></a> <a itemprop="sameAs" href="https://twitter.com/CreativeTim" class="btn btn-default btn-social btn-round" target="_blank"><i class="fa fa-twitter"></i></a> </div> -->
+        <h4 class="get-started-title">Useful Resources</h4>
+        <div class="row">
+          <div class="col-md-2 col-sm-4 col-xs-12">
+            <a href="https://www.creative-tim.com/learning-lab/flowbite/introduction/soft-ui-dashboard/" target="_blank">
+            <div class="card" rel="tooltip" title="Check the online documentation of this product so you can use it for further development.">
+                <i class="fa fa-newspaper-o"></i>
+                <h4>Product <br> Documentation</h4>
+            </div>
+            </a>
+          </div>
+          <div class="col-md-2 col-sm-4 col-xs-12">
+            <a href="https://github.com/creativetimofficial/soft-ui-flowbite" target="_blank">
+            <div class="card" rel="tooltip" title="Show us some love with a Star and talk with other developers on our official Github repositories">
+                <i class="fa fa-github"></i>
+                <h4>Github <br> Repo</h4>
+            </div>
+            </a>
+          </div>
+          <div class="col-md-2 col-sm-4 col-xs-12">
+            <a href="https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w" target="_blank">
+            <div class="card" rel="tooltip" title="Check our official Youtube Channel for tutorials, don't forget to Subscribe!">
+                <i class="fa fa-youtube-play"></i>
+                <h4>Youtube <br> Tutorials</h4>
+            </div>
+            </a>
+          </div>
+
+          <div class="col-md-2 col-sm-4 col-xs-12">
+            <a href="https://www.material-tailwind.com/blocks?ref=download-modal" target="_blank">
+            <div class="card" rel="tooltip" title="Check our latest Tailwind CSS Blocks, they are easy to use and customize">
+                <i class="fa fa-th"></i>
+                <h4>Tailwind <br>Blocks</h4>
+            </div>
+            </a>
+          </div>
+
+          <div class="col-md-2 col-sm-4 col-xs-12">
+            <a href="https://www.creative-tim.com/user/credit-history" target="_blank">
+            <div class="card" rel="tooltip" title="We are looking for long term collaboration with you, the more you do, the more you earn, check our credit system">
+                <i class="fa fa-diamond"></i>
+                <h4>Get <br>Discount</h4>
+            </div>
+            </a>
+          </div>
+
+          <div class="col-md-2 col-sm-4 col-xs-12">
+            <a href="https://www.creative-tim.com/downloads" target="_blank">
+            <div class="card" rel="tooltip" title="Check your dashboard for updates, support and other resources">
+                <i class="fa fa-cogs"></i>
+                <h4>Product <br> Updates</h4>
+            </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+  <div class="footer">
+    <div class="overlayer">
+      <div class="container">
+  <div class="pb-70 pt-50">
+    <div class="row d-flex">
+        <div class="col-md-4 col-sm-12 col-md-offset-2">
+          <div class="section-numbers">
+  <div class="numbers">
+    <h4 class="numbers-dont-lie"><b>2,794,128</b> accounts</h4>
+    <h4 class="numbers-dont-lie"><b>4,869,109</b> downloads</h4>
+    <h4 class="numbers-dont-lie"><a href="https://www.creative-tim.com/templates?ref=footer-ct" target="_blank" class="text-white"><b>308</b> products</a></h4>
+  </div>
+</div>
+
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <p class="title h1">Join our newsletter</p>
+
+         <style>
+
+#sib-form-container .sib-form-block {
+  padding: 0 0 0 0 !important;
+}
+
+#sib-container {
+  padding: 0 0 0 0 !important;
+  background: transparent !important;
+}
+
+#sib-form-container .email {
+  background-color: rgba(255,255,255,.1);
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  border: none;
+  font-size: 16px;
+  height: 40px;
+  margin-right: 15px;
+  padding: 3px 12px;
+  width: 100%;
+}
+
+
+.sib-form {
+  padding: 0 0 0 0 !important;
+}
+
+</style>
+<link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
+<!--  END - We recommend to place the above code in head tag of your website html -->
+
+<!-- START - We recommend to place the below code where you want the form in your website html  -->
+<div class="sib-form">
+  <div id="sib-form-container" >
+    <div id="error-message" class="sib-form-message-panel" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; border-radius:3px; border-color:#ff4949;max-width:540px;background:#fff;">
+      <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
+        <svg viewBox="0 0 512 512" class="sib-icon sib-notification__icon">
+          <path d="M256 40c118.621 0 216 96.075 216 216 0 119.291-96.61 216-216 216-119.244 0-216-96.562-216-216 0-119.203 96.602-216 216-216m0-32C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm-11.49 120h22.979c6.823 0 12.274 5.682 11.99 12.5l-7 168c-.268 6.428-5.556 11.5-11.99 11.5h-8.979c-6.433 0-11.722-5.073-11.99-11.5l-7-168c-.283-6.818 5.167-12.5 11.99-12.5zM256 340c-15.464 0-28 12.536-28 28s12.536 28 28 28 28-12.536 28-28-12.536-28-28-28z" />
+        </svg>
+        <span class="sib-form-message-panel__inner-text">
+          Your subscription could not be saved. Please try again.
+        </span>
+      </div>
+    </div>
+    <div></div>
+    <div id="success-message" class="sib-form-message-panel" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#085229;  border-radius:3px; border-color:#13ce66;max-width:540px;background:#fff">
+      <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
+        <svg viewBox="0 0 512 512" class="sib-icon sib-notification__icon">
+          <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 464c-118.664 0-216-96.055-216-216 0-118.663 96.055-216 216-216 118.664 0 216 96.055 216 216 0 118.663-96.055 216-216 216zm141.63-274.961L217.15 376.071c-4.705 4.667-12.303 4.637-16.97-.068l-85.878-86.572c-4.667-4.705-4.637-12.303.068-16.97l8.52-8.451c4.705-4.667 12.303-4.637 16.97.068l68.976 69.533 163.441-162.13c4.705-4.667 12.303-4.637 16.97.068l8.451 8.52c4.668 4.705 4.637 12.303-.068 16.97z" />
+        </svg>
+        <span class="sib-form-message-panel__inner-text">
+          Your subscription has been successful.
+        </span>
+      </div>
+    </div>
+    <div></div>
+    <div id="sib-container" class="sib-container--large sib-container--vertical">
+      <form id="sib-form" class="form-inline method="POST" action="https://e961ea6f.sibforms.com/serve/MUIFAJsaIYuBJhLcwkC8_U00aM-IDkZTqyzNo1HoBuvYzICssMcBKi58EoDO4tkVZnPwr7FBwjLjzqr9pkPY0N8FNsCWsycqoTHoABzsqh2FTGs8u3v5Rr7HyNcUcP5BQXxk8MW4HoK40NkvgUGOI6slMiqr5Y8a_98tF_9T_dfAdpADVTKzg2m0UtMv6NOaSaGMVy9oXwaQl0o8" data-type="subscription">
+        <div style="padding: 8px 0; width:100%">
+          <div class="sib-form-block form-inline">
+            <label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d;  border-radius:3px; border-color:#ff4949;"></label>
+            <input class="email form-control" type="text" id="EMAIL" name="EMAIL" autocomplete="off" data-required="true" required placeholder="Enter Email" />
+            <button class="sib-form-block__button sib-form-block__button-with-loader btn btn-info btn-round btn-fill"  form="sib-form" type="submit">
+              <svg class="icon clickable__icon progress-indicator__icon sib-hide-loader-icon" viewBox="0 0 512 512">
+                <path d="M460.116 373.846l-20.823-12.022c-5.541-3.199-7.54-10.159-4.663-15.874 30.137-59.886 28.343-131.652-5.386-189.946-33.641-58.394-94.896-95.833-161.827-99.676C261.028 55.961 256 50.751 256 44.352V20.309c0-6.904 5.808-12.337 12.703-11.982 83.556 4.306 160.163 50.864 202.11 123.677 42.063 72.696 44.079 162.316 6.031 236.832-3.14 6.148-10.75 8.461-16.728 5.01z" />
+              </svg>
+              <i class="fa fa-paper-plane-o" aria-hidden="true"></i> Join
+            </button>
+          </div>
+        </div>
+
+        <input type="text" name="email_address_check" value="" class="input--hidden">
+        <input type="hidden" name="locale" value="en">
+      </form>
+    </div>
+  </div>
+</div>
+<!-- END - We recommend to place the below code where you want the form in your website html  -->
+
+<!-- START - We recommend to place the below code in footer or bottom of your website html  -->
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+  window.REQUIRED_CODE_ERROR_MESSAGE = 'Please choose a country code';
+  window.LOCALE = 'en';
+  window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = "The information provided is invalid. Please review the field format and try again.";
+
+  window.REQUIRED_ERROR_MESSAGE = "This field cannot be left blank. ";
+
+  window.GENERIC_INVALID_MESSAGE = "The information provided is invalid. Please review the field format and try again.";
+
+
+
+
+  window.translation = {
+    common: {
+      selectedList: '{quantity} list selected',
+      selectedLists: '{quantity} lists selected'
+    }
+  };
+
+  var AUTOHIDE = Boolean(0);
+</script>
+<script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
+
+
+<!-- END - We recommend to place the above code in footer or bottom of your website html  -->
+<!-- End Brevo Form -->
+
+        </div>
+     </div>
+  </div>
+</div>
+
+    <div class="container">
+      <div class="row support d-flex">
+        <div class="col-sm-3 col-xs-6">
+    <h4 class="text-white">Company</h4>
+    <ul class="list-unstyled" data-turbolinks="false">
+      <li><a href="/presentation">About Us</a></li>
+      <li><a href="https://github.com/creativetimofficial">Github</a></li>
+      <li><a href="/templates/free">Freebies</a></li>
+      <li><a href="/templates/premium">Premium</a></li>
+      <li> <a href="https://www.creative-tim.com/blog">Blog</a></li>
+      <li> <a href="/affiliates/new">Affiliate Program</a></li>
+      <li> <a href="https://www.creative-tim.com/club?ref=ct-footer">Creative Tim Club</a></li>
+    </ul>
+</div>
+
+<div class="col-sm-3 col-xs-6">
+    <h4 class="text-white">Help and Support</h4>
+    <ul class="list-unstyled" data-turbolinks="false">
+      <li><a href="https://www.creative-tim.com/knowledge-center">Knowledge Center</a></li>
+      <li><a href="/contact-us">Contact Us</a></li>
+      <li><a href="/support-terms">Premium Support</a></li>
+      <li><a target="blank" href="https://www.creative-tim.com/services/updivision?ref=ct-footer">Custom Development</a></li>
+      <li> <a href="https://www.creative-tim.com/knowledge-center/terms-of-service/">Terms &amp; Conditions</a></li>
+      <li> <a href="https://www.creative-tim.com/knowledge-center/privacy-policy/">Privacy Policy</a></li>
+      <li><a href="/license">Licenses</a></li>
+      <li><a target="_blank" href="https://iradesign.io">Illustrations</a></li>
+    </ul>
+</div>
+
+<div class="col-sm-3 col-xs-6">
+    <h4 class="text-white">Tailwind Resources</h4>
+    <ul class="list-unstyled" data-turbolinks="false">
+      <li> <a href="/templates/tailwind-dashboard">Admin &amp; Dashboard</a></li>
+      <li> <a href="/templates/tailwind">Templates &amp; Kits</a></li>      
+      <li> <a href="https://www.material-tailwind.com/?ref=ct-footer">React &amp; Tailwind Framework</a></li>
+      <li> <a href="https://www.material-tailwind.com/?ref=ct-footer">HTML &amp; Tailwind Framework</a></li>
+      <li> <a href="https://www.material-tailwind.com/figma?ref=ct-footer">Figma Design System</a></li>
+      <li> <a href="https://www.creative-tim.com/twcomponents/cheatsheet">TW Cheatsheet</a></li>
+      <li> <a href="https://www.creative-tim.com/twcomponents/gradient-generator">TW Gradient Generator</a></li>
+      <li> <a href="https://www.creative-tim.com/twcomponents">TW Components</a></li>
+    </ul>
+</div>
+
+<div class="col-sm-3 col-xs-6">
+    <h4 class="text-white">Developer Resources</h4>
+    <ul class="list-unstyled" data-turbolinks="false">
+      <li> <a href="https://www.galichat.com/?ref=ct-footer">GaliChat AI Assistant</a></li>
+      <li> <a href="https://www.creative-tim.com/gpts">GPTs Collection</a></li>
+      <li> <a href="https://www.creative-tim.com/cheatsheet/chatgpt-prompts/">ChatGPT Prompts</a></li>
+      <li> <a target="_blank" href="https://code-mentor.ai/">AI Code Mentor</a></li>
+      <li><a target="_blank" href="https://m.do.co/c/276af09d9975">Digital Ocean</a></li>
+    </ul>
+</div>
+      </div>
+        <hr>
+        <div class="row pt-30">
+          <div class="col-md-12">
+            <div class="social-area text-center" itemscope itemtype="https://schema.org/LocalBusiness">
+              <a itemprop="url" href="/" class="footer-brand" data-turbolinks="false">
+                <img class="img-logo" alt="logoCt" loading="lazy" src="/assets/logo/logo-ct-white-vertical-0fc4b92dda1d5402f78497576a85bbf1810552c5b4b22a3298df9106e2898a1f.svg" />
+              </a>
+
+               <br/>
+                <a itemprop="sameAs" href="https://github.com/creativetimofficial" class="btn btn-default btn-social btn-round" rel="publisher" target="_blank"><i class="fa fa-github"></i></a>
+                <a itemprop="sameAs" href="https://dribbble.com/creativetim" class="btn btn-default btn-social btn-round" rel="publisher" target="_blank"><i class="fa fa-dribbble"></i></a>
+                <a itemprop="sameAs" href="https://www.facebook.com/CreativeTim" class="btn btn-default btn-social btn-round" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                <a itemprop="sameAs" href="https://twitter.com/CreativeTim" class="btn btn-default btn-social btn-round" target="_blank"><i class="fa fa-twitter"></i></a>
+
+                <a itemprop="sameAs" href="https://www.instagram.com/creativetimofficial/" class="btn btn-default btn-social btn-round" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a itemprop="sameAs" href="https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w" class="btn btn-default btn-social btn-round" target="_blank"><i class="fa fa-youtube"></i></a>
+                <a itemprop="sameAs" href="https://ro.pinterest.com/thecreativetim/" class="btn btn-default btn-social btn-round" target="_blank"><i class="fa fa-pinterest"></i></a>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="credits">
+                 &copy; 2026 Creative Tim, all rights reserved. Made with <i class="icon-heart heart" alt="love"></i> for a better web.
+            </div>
+          </div>
+
+        </div>
+    </div>
+    </div>
+</div>
+
+
+  <script type="text/javascript">
+
+
+
+
+</script>
+
+  
+
+
+
+<div class="modal fade login" id="loginModal">
+    <div class="modal-dialog login animated">
+      <div class="modal-content">
+
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Login with</h4>
+    </div>
+    <div class="modal-body">
+        <div class="box">
+            <div class="content">
+                <div class="social" data-turbolinks="false">
+                    <a id="github_login" class="circle github" rel="nofollow" href="/social/github?destination=product_page&amp;subscribed=1&amp;url=https%253A%252F%252Fwww.creative-tim.com%252Fproduct%252Fsoft-ui-flowbite">
+
+                            <i class="icon-github"></i>
+</a>                    <a id="google_login" class="circle google" rel="nofollow" href="/social/google_oauth2?destination=product_page&amp;subscribed=1&amp;url=https%253A%252F%252Fwww.creative-tim.com%252Fproduct%252Fsoft-ui-flowbite">
+
+                            <i class="fa fa-google"></i>
+</a>                    <a id="facebook_login" class="circle facebook" rel="nofollow" href="/social/facebook?destination=product_page&amp;subscribed=1&amp;url=https%253A%252F%252Fwww.creative-tim.com%252Fproduct%252Fsoft-ui-flowbite">
+
+                            <i class="icon-facebook-alt"></i>
+</a>                </div>
+                <div class="division">
+                      <div class="line l"></div>
+                      <span>or</span>
+                      <div class="line r"></div>
+                </div>
+
+                <div class="error inside-alert"></div>
+                <div class="form loginBox">
+
+                        <form html="multipart true" action="/login" accept-charset="UTF-8" data-remote="true" method="post"><input type="hidden" name="authenticity_token" value="8N2QEAnIIOQx1WHkxp7szgvXr3BfXT8ak4AyoCxwRwoDwhtbE8dOCClmJ8R_MPFZ45KioOTujYp_zsy_Aqvemw" autocomplete="off" />
+                            <input type="text" name="email" class="form-control" placeholder="Email" />
+                            <input type="password" name="password" class="form-control" placeholder="Password" />
+
+                            <input type="hidden" name="destination" value="product_page" autocomplete="off" />
+                            <input type="hidden" name="url" value="https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fsoft-ui-flowbite" autocomplete="off" />
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                <input type="submit" name="commit" value="Login" class="btn btn-default btn-login" data-disable-with="Login" />
+                                </div>
+                                <div class="col-md-12 mt-24 d-flex justify-content-center">
+                                <script src="https://www.recaptcha.net/recaptcha/api.js" async defer ></script>
+<div data-sitekey="6LfJvgsTAAAAALbDuISbCDo1l6qyX_YrPT59xaVk" class="g-recaptcha "></div>
+          <noscript>
+            <div>
+              <div style="width: 302px; height: 422px; position: relative;">
+                <div style="width: 302px; height: 422px; position: absolute;">
+                  <iframe
+                    src="https://www.recaptcha.net/recaptcha/api/fallback?k=6LfJvgsTAAAAALbDuISbCDo1l6qyX_YrPT59xaVk"
+                    name="ReCAPTCHA"
+                    style="width: 302px; height: 422px; border-style: none; border: 0; overflow: hidden;">
+                  </iframe>
+                </div>
+              </div>
+              <div style="width: 300px; height: 60px; border-style: none;
+                bottom: 12px; left: 25px; margin: 0px; padding: 0px; right: 25px;
+                background: #f9f9f9; border: 1px solid #c1c1c1; border-radius: 3px;">
+                <textarea name="g-recaptcha-response"
+                  class="g-recaptcha-response"
+                  style="width: 250px; height: 40px; border: 1px solid #c1c1c1;
+                  margin: 10px 25px; padding: 0px; resize: none;">
+                </textarea>
+              </div>
+            </div>
+          </noscript>
+
+                                </div>
+                            </div>
+                            
+</form>                </div>
+             </div>
+        </div>
+        <div class="box">
+            <div class="content registerBox" style="display:none;">
+             <div class="form">
+                <form html="multipart true" action="/register" accept-charset="UTF-8" data-remote="true" method="post"><input type="hidden" name="authenticity_token" value="05wiZ1fi0nUm5k2ZjpfE86shF9aCTlG5vt2xTK1bewg0cqFZ9-o12m3SfkJLpSw-Ab_43joexFGi--uMcJWewg" autocomplete="off" />
+                    <input type="text" name="email" class="form-control" placeholder="Email" />
+                    <input type="password" name="password" class="form-control" placeholder="Password" />
+                  	<input type="password" name="password_confirmation" class="form-control" placeholder="Repeat Password" />
+                    <input type="hidden" name="destination" value="product_page" autocomplete="off" />
+                    <input type="hidden" name="url" value="https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fsoft-ui-flowbite" autocomplete="off" />
+                    
+                    <label class="checkbox">
+                        <input type="checkbox" value="1" data-toggle="checkbox" name="subscribed" class="ct-info checkbox-subscribe">
+                        Subscribe me to the Newsletter
+                    </label>
+
+                    <input type="submit" name="commit" value="Create account" class="btn btn-default btn-register" data-disable-with="Create account" />
+
+</form>             </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <div class="forgot login-footer">
+
+            <span>Looking to
+                 <a href="javascript: showRegisterForm();" rel="nofollow">create an account</a>
+            ?</span>
+            <br />
+            <span><a rel="nofollow" href="/forgot-password">Forgot password</a> ?</span>
+        </div>
+        <div class="forgot register-footer" style="display:none">
+             <span>Already have an account?</span>
+             <a href="javascript: showLoginForm();">Login</a>
+        </div>
+    </div>
+
+    </div>
+    </div>
+</div>
+
+
+  
+
+<div class="modal fade" id="search-modal" role="dialog">
+  <div class="modal-dialog">
+      <div itemscope itemtype="https://schema.org/WebSite">
+        <meta itemprop="url" content="https://www.creative-tim.com/"/>
+        <form class="form-control-search" itemprop="potentialAction" itemscope="itemscope" itemtype="https://schema.org/SearchAction" action="/search" accept-charset="UTF-8" method="get">
+          <div class="form-group">
+            <meta itemprop="target" content="https://www.creative-tim.com/search?q={q}"/>
+            <div class="input-group input-group-lg">
+              <span class="input-group-addon"> <i class="icon-search"></i></span>
+              <input type="text" name="q" id="q" class="form-control form-control-lg search" placeholder="Okay, what are we looking
+             for?" itemprop="query-input" />
+            </div>
+          </div>
+
+</form>      </div>
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+  
+  <script
+    src="https://widget.galichat.com/gali-embeded.min.js" 
+    chat-hash="qm67ek58shjmf589d5j7o" 
+    defer>
+  </script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"1b7cbb72744b40c580f8633c6b62637e","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+
+
+</html>
