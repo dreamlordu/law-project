@@ -8,6 +8,7 @@ AOS.init({
   once: true,
   offset: 100,
   easing: "ease-in-out",
+  disable: "phone",
 });
 document.addEventListener("click", (e) => {
   const menu = document.getElementById("navbar-cta");
