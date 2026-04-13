@@ -2,13 +2,13 @@
 <html lang="tr">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/public/law.webp" />
+    <link rel="icon" type="image/svg+xml" href="/public/law.png" />
     <link rel="stylesheet" href="src/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Veridian Law</title>
   </head>
   <body class="bg-bej-hukuk font-sans ">
-    <nav
+    <nav  
       class="fixed z-50 bg-white/80 backdrop-blur-md fixed w-full z-20 top-0 start-0 border-b border-gray-200"
     >
       <div
@@ -99,10 +99,10 @@
     </nav>
     <main class="max-w-full lg:px-15">
       <!-- header -->
-      <header
+      <header  
         class="flex flex-col xl:flex-row items-center justify-center w-full pt-32 pb-10 px-6 xl:px-20 gap-12"
       >
-        <div
+        <div 
           class="flex flex-col gap-8 w-full xl:w-1/2 order-2 xl:order-1 text-center xl:text-left"
         >
           <div class="flex flex-col gap-2">
@@ -162,19 +162,22 @@
 
           <div
             class="flex flex-col sm:flex-row gap-4 justify-center xl:justify-start"
-          >
+          ><a href="tel:05374950147">
             <button
               type="button"
               class="bg-gray-900 text-white hover:bg-gray-800 font-medium rounded-2xl text-md px-8 py-4 w-full sm:w-48 transition-all shadow-lg"
             >
               İletişime Geç
             </button>
+          </a>
+          <a href="tel:05374950147">
             <button
               type="button"
               class="border-2 border-orange-800 text-orange-800 hover:bg-orange-50 font-medium rounded-2xl text-md px-8 py-4 w-full sm:w-48 transition-all"
             >
               Avukatını Bul
             </button>
+          </a>
           </div>
         </div>
 
@@ -187,7 +190,7 @@
           />
 
           <div
-            class="flex items-center w-[260px] xl:w-[300px] h-[70px] gap-3 absolute bottom-6 xl:bottom-10 left-2 xl:-left-10 z-20 bg-white/60 backdrop-blur-md border border-white/40 p-4 rounded-2xl shadow-2xl"
+            class=" hidden lg:flex items-center w-[260px] xl:w-[300px] h-[70px] gap-3 absolute bottom-6 xl:bottom-10 left-2 xl:-left-10 z-20 bg-white/60 backdrop-blur-md border border-white/40 p-4 rounded-2xl shadow-2xl"
           >
             <p class="text-sm xl:text-md font-bold text-gray-900 leading-tight">
               Sonuç Alınan Davalar
@@ -199,9 +202,9 @@
               />
             </div>
           </div>
-   <!-- expertise -->
+  
           <div 
-            class="flex items-center w-[260px] xl:w-[300px] h-[70px] absolute top-6 xl:top-10 right-2 xl:-right-10 z-30 bg-white/60 backdrop-blur-md border border-white/40 p-4 rounded-2xl shadow-2xl"
+            class=" hidden lg:flex items-center w-[260px] xl:w-[300px] h-[70px] absolute top-6 xl:top-10 right-2 xl:-right-10 z-30 bg-white/60 backdrop-blur-md border border-white/40 p-4 rounded-2xl shadow-2xl"
           >
             <div class="flex flex-row items-center gap-3 w-full">
               <p class="text-xs xl:text-sm font-bold text-gray-900">
@@ -233,12 +236,12 @@
           </div>
         </div>
       </header>
-      <!-- ================================================================================================================================= -->
+      <!-- ============================================= ABOUT==================================================================================== -->
          
       <section id="hakkimizda" class="max-w-screen-xl mx-auto py-24 px-6 xl:px-20">
   <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
     
-    <div class="relative group">
+    <div data-aos="fade-right" class="relative group">
       <img 
         src="/src/assets/image/about.webp" 
         alt="Adalet ve Estetik" 
@@ -255,7 +258,7 @@
       <div class="absolute -top-10 -left-10 w-40 h-40 bg-orange-100/50 rounded-full -z-10 blur-3xl"></div>
     </div>
 
-    <div class="flex flex-col space-y-8">
+    <div data-aos="fade-left" class="flex flex-col space-y-8">
       <div class="space-y-4">
         <h3 class="text-orange-700 font-bold tracking-[0.2em] uppercase text-sm">Biz Kimiz?</h3>
         <h2 class="text-4xl xl:text-5xl font-extrabold text-gray-900 leading-tight">
@@ -272,7 +275,7 @@
         </p>
       </div>
 
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4">
+      <div  class="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4">
         <div class="flex items-center gap-4">
           <div class="bg-orange-50 p-3 rounded-xl text-orange-700 font-bold">✓</div>
           <span class="font-bold text-gray-800">Şeffaf Süreç Yönetimi</span>
@@ -300,11 +303,11 @@
 
   </div>
 </section>
-      <!-- ================================================================================== -->
+      <!--  EXPERTISE ================================================================================== -->
       <section id="expertise"
         class="flex flex-col py-20 px-6 max-w-screen-xl mx-auto min-h-screen"
       >
-        <div
+        <div data-aos="fade-down"
           class="flex flex-col justify-center items-center text-center gap-6 mb-16"
         >
           <div class="inline-flex p-3 rounded-2xl bg-orange-50">
@@ -335,7 +338,7 @@
         <div
           class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 xl:gap-8"
         >
-          <div
+          <div data-aos="fade"
             class="group relative overflow-hidden rounded-[2rem] shadow-2xl h-[350px] border border-gray-100"
           >
             <a
@@ -349,11 +352,11 @@
                 class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
               />
 
-              <div
+              <div  data-aos="fade"
                 class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-80 group-hover:opacity-100 transition-opacity"
               ></div>
 
-              <div
+              <div  
                 class="absolute bottom-5 left-5 right-5 bg-white/95 backdrop-blur-md p-5 rounded-2xl shadow-2xl transform transition-all duration-500 group-hover:-translate-y-3 border border-white/20"
               >
                 <h3
@@ -368,7 +371,7 @@
             </a>
           </div>
 
-          <div
+          <div  data-aos="fade"
             class="group relative overflow-hidden rounded-[2rem] shadow-2xl h-[350px] border border-gray-100"
           >
             <a
@@ -399,7 +402,7 @@
             </a>
           </div>
 
-          <div
+          <div  data-aos="fade"
             class="group relative overflow-hidden rounded-[2rem] shadow-2xl h-[350px] border border-gray-100"
           >
             <a
@@ -430,7 +433,7 @@
             </a>
           </div>
 
-          <div
+          <div  data-aos="fade"
             class="group relative overflow-hidden rounded-[2rem] shadow-2xl h-[350px] border border-gray-100"
           >
             <a
@@ -461,7 +464,7 @@
             </a>
           </div>
 
-          <div
+          <div  data-aos="fade"
             class="group relative overflow-hidden rounded-[2rem] shadow-2xl h-[350px] border border-gray-100"
           >
             <a
@@ -492,7 +495,7 @@
             </a>
           </div>
 
-          <div
+          <div  data-aos="fade"
             class="group relative overflow-hidden rounded-[2rem] shadow-2xl h-[350px] border border-gray-100"
           >
             <a
@@ -523,7 +526,7 @@
             </a>
           </div>
 
-          <div
+          <div  data-aos="fade"
             class="group relative overflow-hidden rounded-[2rem] shadow-2xl h-[350px] border border-gray-100"
           >
             <a
@@ -554,7 +557,7 @@
             </a>
           </div>
 
-          <div
+          <div  data-aos="fade"
             class="group relative overflow-hidden rounded-[2rem] shadow-2xl h-[350px] border border-gray-100"
           >
             <a
@@ -586,10 +589,10 @@
           </div>
         </div>
       </section>
-      <!-- ========================================================================================
+      <!--        TEAM ========================================================================================
         -->
       <section id="ekibimiz" class="max-w-screen-xl mx-auto py-24 px-6 xl:px-20">
-  <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+  <div data-aos="fade-left" class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
     <div class="space-y-4">
       <h3 class="text-orange-700 font-bold tracking-[0.2em] uppercase text-sm">Uzman Kadromuz</h3>
       <h2 class="text-4xl xl:text-5xl font-extrabold text-gray-900 leading-tight">
@@ -603,7 +606,7 @@
 
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
     
-    <div class="group relative">
+    <div data-aos="fade" class="group relative">
       <div class="relative h-[450px] overflow-hidden rounded-[2.5rem] shadow-xl transition-all duration-500 group-hover:shadow-2xl group-hover:-translate-y-2">
         <img 
           src="/src/assets/image/personal/arda.webp" 
@@ -625,7 +628,7 @@
       </div>
     </div>
 
-    <div class="group relative">
+    <div data-aos="fade"  class="group relative">
       <div class="relative h-[450px] overflow-hidden rounded-[2.5rem] shadow-xl transition-all duration-500 group-hover:shadow-2xl group-hover:-translate-y-2">
         <img src="/src/assets/image/personal/burcu.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Avukat Adı"/>
         <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-8 text-center">
@@ -637,7 +640,7 @@
       </div>
     </div>
 
-    <div class="group relative">
+    <div data-aos="fade" class="group relative">
       <div class="relative h-[450px] overflow-hidden rounded-[2.5rem] shadow-xl transition-all duration-500 group-hover:shadow-2xl group-hover:-translate-y-2">
         <img  src="/src/assets/image/personal/arda.webp"  class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Avukat Adı"/>
         <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-8 text-center"></div>
@@ -648,7 +651,7 @@
       </div>
     </div>
 
-    <div class="group relative">
+    <div data-aos="fade" class="group relative">
       <div class="relative h-[450px] overflow-hidden rounded-[2.5rem] shadow-xl transition-all duration-500 group-hover:shadow-2xl group-hover:-translate-y-2">
         <img src="/src/assets/image/personal/burcu.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Avukat Adı"/>
         <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-8 text-center"></div>
@@ -662,12 +665,12 @@
   </div>
 </section>
       <!-- ==========================
-      SSS
+         FAQ 
       ========================= -->
       <section id="sss"
         class="max-w-screen-xl mx-auto py-20 px-6 xl:px-20 min-h-screen flex items-center"
       >
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center w-full">
+        <div data-aos="fade-left" class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center w-full">
           <div class="flex flex-col gap-10">
             <div class="space-y-4">
               <h2
@@ -790,7 +793,7 @@
             </div>
           </div>
 
-          <div class="flex justify-center lg:justify-end relative">
+          <div data-aos="fade-left" class="flex justify-center lg:justify-end relative">
             <img
               src="/src/assets/image/sssimage.webp"
               alt="Legal Team"
@@ -813,7 +816,7 @@
       <!-- ========================================================================================== -->
       <section class="max-w-screen-xl mx-auto py-20 px-6 xl:px-20">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div
+          <div data-aos="fade-right"
             class="relative h-[600px] rounded-[2.5rem] overflow-hidden group shadow-2xl"
           >
             <img
@@ -825,7 +828,7 @@
               class="absolute inset-0 bg-black/40 bg-gradient-to-b from-black/20 via-transparent to-black/60"
             ></div>
 
-            <div
+            <div 
               class="relative h-full flex flex-col items-center justify-start pt-12 px-8 text-center text-white"
             >
               <div class="mb-4">
@@ -846,16 +849,16 @@
                 Alanında uzman avukat kadrosu ile Biotery Avukatlık Ortaklığı,
                 her türlü hukuki süreciniz için çalışmaya hazır.
               </p>
-
+ <a href="#iletisim">
               <button
                 class="bg-[#FFD700] hover:bg-[#E6C200] text-black font-bold py-3 px-10 rounded-full transition-all transform hover:scale-105 uppercase text-xs tracking-widest shadow-xl"
               >
                 BİLGİ AL
-              </button>
+              </button></a>
             </div>
           </div>
 
-          <div
+          <div data-aos="fade-left"
             class="relative h-[600px] rounded-[2.5rem] overflow-hidden group shadow-2xl"
           >
             <img
@@ -889,18 +892,20 @@
                 hizmet vermek adına, büyük bir ekip ile sizleri karşılıyor.
               </p>
 
+           <a href="#iletisim">
               <button
                 class="bg-[#FFD700] hover:bg-[#E6C200] text-black font-bold py-3 px-10 rounded-full transition-all transform hover:scale-105 uppercase text-xs tracking-widest shadow-xl"
               >
                 BİLGİ AL
-              </button>
+              </button></a>
             </div>
           </div>
         </div>
       </section>
-      <!-- ====================================================================================================================================== -->
+      <!-- =============================================customer -reviews
+       ========================================================================================= -->
       <section class="py-20 px-6">
-        <div class="max-w-screen-xl mx-auto">
+        <div data-aos="fade-up" class="max-w-screen-xl mx-auto">
           <div class="text-center mb-16">
             <h2
               class="text-4xl md:text-5xl font-extrabold text-gray-800 tracking-tight"
@@ -913,11 +918,11 @@
           </div>
 
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-            <div
+            <div  data-aos="fade" 
               class="bg-white p-8 rounded-[2.5rem] shadow-2xl shadow-gray-200/50 flex flex-col gap-6 border border-gray-100 transition-transform hover:-translate-y-2"
             >
               <div class="flex items-center gap-4">
-                <div class="relative">
+                <divclass="relative">
                   <img
                     src="/src/assets/image/team-member-2.webp"
                     alt="Ahmet Yılmaz"
@@ -926,7 +931,7 @@
                   <div
                     class="absolute -bottom-1 -right-1 bg-white rounded-full p-1 shadow-sm"
                   ></div>
-                </div>
+                </divclass=>
                 <div>
                   <h3 class="text-xl font-bold text-gray-900">Ahmet Yılmaz</h3>
                   <p class="text-gray-400 text-sm italic">İş İnsanı</p>
@@ -947,7 +952,7 @@
               </p>
             </div>
 
-            <div
+            <div data-aos="fade" 
               class="bg-white p-8 rounded-[2.5rem] shadow-2xl shadow-gray-200/50 flex flex-col gap-6 border border-gray-100 transition-transform hover:-translate-y-2"
             >
               <div class="flex items-center gap-4">
@@ -972,7 +977,7 @@
               </p>
             </div>
 
-            <div
+            <div data-aos="fade" 
               class="bg-white p-8 rounded-[2.5rem] shadow-2xl shadow-gray-200/50 flex flex-col gap-6 border border-gray-100 transition-transform hover:-translate-y-2 lg:md:col-span-1 md:col-span-2 lg:col-auto"
             >
               <div class="flex items-center gap-4">
@@ -999,13 +1004,13 @@
           </div>
         </div>
       </section>
-      <!-- contact -->
+      <!-- CONTACT -->
       <section
         id="iletisim"
         class="max-w-screen-xl mx-auto py-24 px-6 xl:px-20"
       >
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
-          <div class="flex flex-col justify-center space-y-12">
+          <div data-aos="fade-left" class="flex flex-col justify-center space-y-12">
             <div class="space-y-4">
               <h2
                 class="text-4xl xl:text-5xl font-extrabold text-gray-900 tracking-tight"
@@ -1093,7 +1098,7 @@
             </div>
           </div>
 
-          <div
+          <div data-aos="fade-right"
             class="bg-white/70 backdrop-blur-2xl p-8 md:p-12 rounded-[3rem] shadow-2xl border border-white/50 relative"
           >
             <form action="#" class="space-y-6">
